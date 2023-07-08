@@ -18,18 +18,7 @@ SECRET_KEY = os.environ.get(
     default=secrets.token_urlsafe(nbytes=64),
 )
 
-
-
-IS_HEROKU_APP = "DYNO" in os.environ and not "CI" in os.environ
-
-if not IS_HEROKU_APP:
-    DEBUG = True
-
-if IS_HEROKU_APP:
-    ALLOWED_HOSTS = ["tsp-website-e440e7e574bc.herokuapp.com/", '127.0.0.1']
-else:
-    ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ["tsp-website-e440e7e574bc.herokuapp.com/", '127.0.0.1']
           
 
 INSTALLED_APPS = [
