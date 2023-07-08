@@ -17,15 +17,15 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 DEBUG = False
 
-IS_HEROKU_APP = "DYNO" in os.environ and not "CI" in os.environ
+# IS_HEROKU_APP = "DYNO" in os.environ and not "CI" in os.environ
 
-if not IS_HEROKU_APP:
-    DEBUG = True
+# if not IS_HEROKU_APP:
+#     DEBUG = True
 
-if IS_HEROKU_APP:
-    ALLOWED_HOSTS = ["*"]
-else:
-    ALLOWED_HOSTS = []
+# if IS_HEROKU_APP:
+#     ALLOWED_HOSTS = ["https://tsp-website-e440e7e574bc.herokuapp.com/", '127.0.0.1']
+# else:
+#     ALLOWED_HOSTS = []
 
 
 ALLOWED_HOSTS = ['https://tsp-website-e440e7e574bc.herokuapp.com', '127.0.0.1']
