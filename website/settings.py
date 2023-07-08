@@ -13,13 +13,13 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 SECRET_KEY = env('SECRET_KEY')
 
 
-DEBUG = True
+DEBUG = False
 
 # ALLOWED_HOSTS = [
 #     env('ALLOWED_HOSTS')
 # ]
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://tsp-website-e440e7e574bc.herokuapp.com', '127.0.0.1']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
