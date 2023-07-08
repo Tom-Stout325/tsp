@@ -18,7 +18,7 @@ SECRET_KEY = os.environ.get(
     default=secrets.token_urlsafe(nbytes=64),
 )
 
-ALLOWED_HOSTS = ["tsp-website-e440e7e574bc.herokuapp.com/", '127.0.0.1']
+ALLOWED_HOSTS = ['*']
           
 
 INSTALLED_APPS = [
