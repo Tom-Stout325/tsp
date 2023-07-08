@@ -17,9 +17,6 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 DEBUG = False
 
-# ALLOWED_HOSTS = [
-#     env('ALLOWED_HOSTS')
-# ]
 IS_HEROKU_APP = "DYNO" in os.environ and not "CI" in os.environ
 
 if not IS_HEROKU_APP:
@@ -119,13 +116,13 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
-EMAIL_BACKEND = env('EMAIL_BACKEND'),
-EMAIL_HOST = env('EMAIL_HOST'),
-EMAIL_FROM = env('EMAIL_FROM'),
-EMAIL_HOST_USER = env('EMAIL_HOST_USER'),
+os.environ.get('SECRET_KEY')
+EMAIL_BACKEND = os.environ.get('EMAIL_BACKEND'),
+EMAIL_HOST = os.environ.get('EMAIL_HOST'),
+EMAIL_FROM = os.environ.get('EMAIL_FROM'),
+EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER'),
 EMAIL_PORT = 587,
-EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD')
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 EMAIL_USE_TLS = True
 
 LANGUAGE_CODE = 'en-us'
