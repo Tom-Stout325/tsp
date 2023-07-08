@@ -12,15 +12,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = env('SECRET_KEY')
 
-DEBUG = False
+DEBUG = env('DEBUG')
 
 # ALLOWED_HOSTS = [
 #     env('ALLOWED_HOSTS')
 # ]
 
-ALLOWED_HOSTS = ['*']
-
-# ALLOWED_HOSTS = ['https://tsp-website-e440e7e574bc.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['https://tsp-website-e440e7e574bc.herokuapp.com', '127.0.0.1']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
