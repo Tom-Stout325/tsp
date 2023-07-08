@@ -32,8 +32,8 @@ IS_HEROKU_APP = "DYNO" in os.environ and not "CI" in os.environ
 # else:
 #     ALLOWED_HOSTS = []
 
-
-ALLOWED_HOSTS = ['https://tsp-website-e440e7e574bc.herokuapp.com', '127.0.0.1']
+          
+ALLOWED_HOSTS = ['tsp-website-e440e7e574bc.herokuapp.com', '127.0.0.1']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -124,13 +124,13 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-# EMAIL_BACKEND = os.environ.get('EMAIL_BACKEND')
-# EMAIL_HOST = os.environ.get('EMAIL_HOST')
-# EMAIL_FROM = os.environ.get('EMAIL_FROM')
-# EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
-# EMAIL_PORT = 587
-# EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
-# EMAIL_USE_TLS = True
+EMAIL_BACKEND = os.environ.get('EMAIL_BACKEND')
+EMAIL_HOST = os.environ.get('EMAIL_HOST')
+EMAIL_FROM = os.environ.get('EMAIL_FROM')
+EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+EMAIL_PORT = 587
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
+EMAIL_USE_TLS = True
 
 LANGUAGE_CODE = 'en-us'
 
