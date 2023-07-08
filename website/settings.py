@@ -8,17 +8,19 @@ environ.Env.read_env()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
+# environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 
-# SECRET_KEY = env('SECRET_KEY')
-SECRET_KEY='django-insecure-mki0%oe0$i3hcy8uqqshqurl9=%n^@hkh_7lbi8(wt^$0bitz4'
+SECRET_KEY = env('SECRET_KEY')
+
 DEBUG = False
 
 # ALLOWED_HOSTS = [
 #     env('ALLOWED_HOSTS')
 # ]
 
-ALLOWED_HOSTS = ['https://tsp-website-e440e7e574bc.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
+
+# ALLOWED_HOSTS = ['https://tsp-website-e440e7e574bc.herokuapp.com', '127.0.0.1']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -88,13 +90,13 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-# EMAIL_BACKEND = env('EMAIL_BACKEND'),
-# EMAIL_HOST = env('EMAIL_HOST'),
-# EMAIL_FROM = env('EMAIL_FROM'),
-# EMAIL_HOST_USER = env('EMAIL_HOST_USER'),
-# EMAIL_PORT = 587,
-# EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD')
-# EMAIL_USE_TLS = True
+EMAIL_BACKEND = env('EMAIL_BACKEND'),
+EMAIL_HOST = env('EMAIL_HOST'),
+EMAIL_FROM = env('EMAIL_FROM'),
+EMAIL_HOST_USER = env('EMAIL_HOST_USER'),
+EMAIL_PORT = 587,
+EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD')
+EMAIL_USE_TLS = True
 
 LANGUAGE_CODE = 'en-us'
 
