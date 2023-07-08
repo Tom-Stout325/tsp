@@ -121,13 +121,13 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-EMAIL_BACKEND = os.environ.get('EMAIL_BACKEND')
-EMAIL_HOST = os.environ.get('EMAIL_HOST')
-EMAIL_FROM = os.environ.get('EMAIL_FROM')
-EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
-EMAIL_PORT = 587
-EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
-EMAIL_USE_TLS = True
+# EMAIL_BACKEND = os.environ.get('EMAIL_BACKEND')
+# EMAIL_HOST = os.environ.get('EMAIL_HOST')
+# EMAIL_FROM = os.environ.get('EMAIL_FROM')
+# EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+# EMAIL_PORT = 587
+# EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
+# EMAIL_USE_TLS = True
 
 
 
@@ -143,11 +143,13 @@ USE_TZ = True
 STATIC_ROOT = BASE_DIR / "staticfiles"
 STATIC_URL = "static/"
 
-STORAGES = {
-    "staticfiles": {
-        "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
-    },
-}
+# STORAGES = {
+#     "staticfiles": {
+#         "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
+#     },
+# }
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 WHITENOISE_KEEP_ONLY_HASHED_FILES = True
 
