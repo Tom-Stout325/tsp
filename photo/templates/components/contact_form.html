@@ -1,0 +1,51 @@
+
+{% load static %} 
+
+{% block content %}
+<head>
+  <link
+    href="{% static 'styles/contact.css' %}"
+    rel="stylesheet"
+    type="text/css"/>
+  </head>
+<body>
+  <div class="container text-center mt-5">
+    <img
+      class="w-50 mt-5"
+      src="{% static 'images/14_c.png'%}"
+      alt="Tom Stout Photography"/>
+  </div>
+  <br />
+  <hr class="style14" />
+  <br /> 
+  <div class="container text-center">
+    <br />
+    <br>
+    {% for msg in messages %}
+      {{ msg }}
+    {% endfor %}
+    <h1 class="fs-4 text-center">
+      Let's talk about your photography, send me a message!
+    </h1>
+    <br />
+  </div>
+  <div id="container">
+    <h1 class="mt-4">&bull; Let's Chat! &bull;</h1>
+    <div class="underline"></div>
+    <div class="icon_wrapper text-center">
+      <img class="w-25"
+        src="{% static 'images/email_icon.png' %}"
+        alt="Email Me!"/>
+    </div>  
+    <label for="contact_form"></label>
+      <form action="" method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        
+        <div class="submit">
+          <input type="submit" value="Send It!" id="form_button"/>
+        </div>
+      </form>
+    </div>
+</body>
+{% endblock %}

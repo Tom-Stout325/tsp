@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap");
+
+body,
+html {
+  height: 100%;
+  margin-top: 60px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.8em;
+  color: #666;
+}
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  PARALLAX  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4 {
+  position: relative;
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.pimg1 {
+  background-image: url("/images/lighthouse.jpg");
+  min-height: 100%;
+}
+.pimg2 {
+  background-image: url("/images/grandkids.jpg");
+  min-height: 800px;
+}
+.pimg3 {
+  background-image: url("/images/slider_5.jpg");
+  min-height: 1000px;
+}
+.pimg4 {
+  background-image: url("/images/slider_4.jpg");
+  min-height: 800px;
+}
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%; 
+  text-align: center;
+  color: black;
+  font-size: 2vw;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.ptext2 {
+  position: absolute;
+  top: 70%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 2vw;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.ptext .border {
+  background-color: #111;
+  border-radius: 10px;
+  color: #fff;
+  padding: 20px;
+}
+.ptext .border.trans {
+  background-color: transparent;
+}
+@media (max-width: 568px) {
+  .pimg1,
+  .pimg2,
+  .pimg3  {  
+    background-attachment: scroll;
+  }
+  .section p {
+    font-size: 10px !important;
+    }
+  .section h2 {
+    font-size: 15px;
+  }
+  .section
+  .section-light
+  .section-dark {
+    padding: 10px 10px;
+    }
+  }
+.section-drone {
+  height: 900px;
+}
+.port1 {
+  background-image: url("/images/portfolio_header.jpg");
+  min-height: 90%;
+  position: relative;
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.senior1 {
+  margin-top: 20px;
+  background-image: url("https://photos.smugmug.com/Galleries/Senior-Portraits/i-XMpzKr7/0/b5691e0e/X2/21-0005-0562-E-X2.jpg");
+  min-height: 100%;
+  position: relative;
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.wedding1 {
+  margin-top: 20px;
+  background-image: url("https://photos.smugmug.com/Galleries/WeddingsGallery/i-7HmQ4PK/0/54f3492d/X2/IMG_0713-Edit-Edit-X2.jpg");
+  min-height: 100%;
+  position: relative;
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.port1 {
+  margin-top: 20px;
+  background-image: url("https://photos.smugmug.com/Galleries/Portraits/i-sMhjBpX/0/e2278d29/X2/21-0009-345-169-Edit-X2.jpg");
+  min-height: 100%;
+  position: relative;
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.drone1 {
+  margin-top: 20px;
+  background-image: url("https://photos.smugmug.com/Galleries/Senior-Portraits/i-XMpzKr7/0/b5691e0e/X2/21-0005-0562-E-X2.jpg");
+  min-height: 100%;
+  position: relative;
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.about1 {
+  background-image: url("/images/14_c.png");
+  min-height: 100%;
+  position: relative;
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.clients1 {
+  margin-top: 20px;
+  background-image: url("https://photos.smugmug.com/Galleries/Portraits/i-hLrBsx3/0/28ceb7e0/X2/18-0114-113-Edit-Edit-X2.jpg");
+  min-height: 100%;
+  position: relative;
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+hr.style14 { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #000000, #f0f0f0); 
+}
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  Cusstom Button  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+
+/* <button class="button-79" role="button">Button 79</button> */
+
+.button-79 {
+  backface-visibility: hidden;
+  background: #332cf2;
+  border: 0;
+  border-radius: .375rem;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,Helvetica,sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -.01em;
+  line-height: 1.3;
+  padding: 1rem 1.25rem;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transform: translateZ(0) scale(1);
+  transition: transform .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-79:disabled {
+  color: #787878;
+  cursor: auto;
+}
+
+.button-79:not(:disabled):hover {
+  transform: scale(1.05);
+}
+
+.button-79:not(:disabled):hover:active {
+  transform: scale(1.05) translateY(.125rem);
+}
+
+.button-79:focus {
+  outline: 0 solid transparent;
+}
+
+.button-79:focus:before {
+  border-width: .125rem;
+  content: "";
+  left: calc(-1*.375rem);
+  pointer-events: none;
+  position: absolute;
+  top: calc(-1*.375rem);
+  transition: border-radius;
+  user-select: none;
+}
+
+.button-79:focus:not(:focus-visible) {
+  outline: 0 solid transparent;
+}
+
+.button-79:not(:disabled):active {
+  transform: translateY(.125rem);
+}
+

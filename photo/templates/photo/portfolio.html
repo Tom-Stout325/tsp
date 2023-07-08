@@ -1,0 +1,49 @@
+{% extends 'index.html' %}
+{% load static %} 
+
+{% block title %} 
+  Portfolio
+{% endblock %}
+{% block content %}
+  <body>
+    <div class="port1">
+      <div class="ptext">
+        <span class="border"> Tom Stout Photography </span>
+      </div>
+    </div>
+    <section class="section section-dark">
+      <div class="w-75 mx-auto fw-light text-center">
+        <h2>Portfolio Galleries</h2>
+        <p class="text-center">
+          Please review my photography portfolio and contact me with any questions or comments!
+        </p>
+        <div class="portfolio">
+
+          <div class="seniors">
+            <a href="{% url 'seniors' %}"> 
+            <img src="https://photos.smugmug.com/Galleries/Senior-Portraits/i-hxV25gn/0/400e3049/L/20-0011-9894-E2-L.jpg"></a>
+            <h3>Senior Portraits</h3>
+          </div>
+          <div class="weddings">
+            <a href="{% url 'weddings' %}"><img src="{% static 'images/wedding_port.png' %}"></a>
+            <h3>Weddings</h3>
+          </div>
+          <div class="families">
+            <a href="{% url 'portraits' %}"><img src="https://photos.smugmug.com/Galleries/Portraits/i-sMhjBpX/0/e2278d29/M/21-0009-345-169-Edit-M.jpg"></a>
+            <h3>Portraits</h3>
+          </div>
+          <div class="aerial">
+            <a href="{% url 'drones' %}"></a><img src="{% static 'images/drone_port.png' %}">
+            <h3>Aerial Photography & Video</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div>
+        {% include 'components/contact_form.html' %}
+      </div>
+    </div>
+  </body>
+
+  {% endblock %}
