@@ -11,29 +11,26 @@ environ.Env.read_env()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
-
-# SECRET_KEY = env('SECRET_KEY')
+environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 
 SECRET_KEY = os.environ.get(
     "DJANGO_SECRET_KEY",
     default=secrets.token_urlsafe(nbytes=64),
 )
 
-DEBUG = False
+
 
 IS_HEROKU_APP = "DYNO" in os.environ and not "CI" in os.environ
 
-# if not IS_HEROKU_APP:
-#     DEBUG = True
+if not IS_HEROKU_APP:
+    DEBUG = True
 
-# if IS_HEROKU_APP:
-#     ALLOWED_HOSTS = ["https://tsp-website-e440e7e574bc.herokuapp.com/", '127.0.0.1']
-# else:
-#     ALLOWED_HOSTS = []
+if IS_HEROKU_APP:
+    ALLOWED_HOSTS = ["tsp-website-e440e7e574bc.herokuapp.com/", '127.0.0.1']
+else:
+    ALLOWED_HOSTS = []
 
           
-ALLOWED_HOSTS = ['tsp-website-e440e7e574bc.herokuapp.com', '127.0.0.1']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -124,21 +121,15 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-# EMAIL_BACKEND = os.environ.get('EMAIL_BACKEND'),
-# EMAIL_HOST = os.environ.get('EMAIL_HOST'),
-# EMAIL_FROM = os.environ.get('EMAIL_FROM'),
-# EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER'),
-# EMAIL_PORT = 587,
-# EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD'),
-# EMAIL_USE_TLS = True
-
-EMAIL_BACKEND = env('EMAIL_BACKEND'),
-EMAIL_HOST = env('EMAIL_HOST'),
-EMAIL_FROM = env('EMAIL_FROM'),
-EMAIL_HOST_USER = env('EMAIL_HOST_USER'),
-EMAIL_PORT = 587,
-EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD'),
+EMAIL_BACKEND = os.environ.get('EMAIL_BACKEND')
+EMAIL_HOST = os.environ.get('EMAIL_HOST')
+EMAIL_FROM = os.environ.get('EMAIL_FROM')
+EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+EMAIL_PORT = 587
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 EMAIL_USE_TLS = True
+
+
 
 LANGUAGE_CODE = 'en-us'
 
