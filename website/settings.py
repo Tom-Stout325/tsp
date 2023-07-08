@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    "whitenoise.runserver_nostatic",
+
     'photo.apps.PhotoConfig',
     'fontawesomefree',
     'bootstrap5',
