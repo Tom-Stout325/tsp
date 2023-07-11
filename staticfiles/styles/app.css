@@ -26,15 +26,15 @@ html {
   min-height: 100%;
 }
 .pimg2 {
-  background-image: url("https://photos.smugmug.com/Galleries/Portraits/i-fFg3mtr/0/d6f66b03/X3/Grandkids%207-X3.jpg");
+  background-image: url("https://photos.smugmug.com/Website/Website-Images/i-hNzCrGd/0/13151bd1/X2/grandkids-X2.jpg");
   min-height: 800px;
 }
 .pimg3 {
-  background-image: url("https://photos.smugmug.com/Website/Seniors/i-BtjHNkw/0/b7377c46/XL/slider_5-XL.jpg");
+  background-image: url("https://photos.smugmug.com/Website/Website-Images/i-BtjHNkw/0/b7377c46/XL/slider_5-XL.jpg");
   min-height: 1000px;
 }
 .pimg4 {
-  background-image: url("https://photos.smugmug.com/Galleries/WeddingsGallery/i-58mRCgg/0/87c98394/XL/slider_4-XL.jpg");
+  background-image: url("https://photos.smugmug.com/Website/Website-Images/i-58mRCgg/0/87c98394/XL/slider_4-XL.jpg");
   min-height: 800px;
 }
 .section {
@@ -154,7 +154,7 @@ html {
   background-attachment: fixed;
 }
 .about1 {
-  background-image: url("/images/14_c.png");
+  background-image: url("https://photos.smugmug.com/Website/Logos/i-P3htNjX/0/fcd59a1b/M/14_b-M.png");
   min-height: 100%;
   position: relative;
   opacity: 0.8;
