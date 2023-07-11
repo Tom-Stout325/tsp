@@ -22,19 +22,19 @@ html {
   background-attachment: fixed;
 }
 .pimg1 {
-  background-image: url("/images/lighthouse.jpg");
+  background-image: url("https://photos.smugmug.com/Website/Places/i-m8Z4LBC/0/ea630cfe/X2/lighthouse-X2.jpg");
   min-height: 100%;
 }
 .pimg2 {
-  background-image: url("/images/grandkids.jpg");
+  background-image: url("https://photos.smugmug.com/Website/Places/i-hNzCrGd/0/13151bd1/X2/grandkids-X2.jpg");
   min-height: 800px;
 }
 .pimg3 {
-  background-image: url("/images/slider_5.jpg");
+  background-image: url("https://photos.smugmug.com/Website/Places/i-BtjHNkw/0/b7377c46/XL/slider_5-XL.jpg");
   min-height: 1000px;
 }
 .pimg4 {
-  background-image: url("/images/slider_4.jpg");
+  background-image: url("https://photos.smugmug.com/Website/Places/i-58mRCgg/0/87c98394/XL/slider_4-XL.jpg");
   min-height: 800px;
 }
 .section {
