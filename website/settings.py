@@ -20,6 +20,7 @@ SECRET_KEY = os.environ.get(
 
 ALLOWED_HOSTS = ['tsp-website-e440e7e574bc.herokuapp.com']
           
+DEBUG = True
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -131,12 +132,6 @@ USE_TZ = True
 
 STATIC_ROOT = BASE_DIR / "staticfiles"
 STATIC_URL = "static/"
-
-# STORAGES = {
-#     "staticfiles": {
-#         "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
-#     },
-# }
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
