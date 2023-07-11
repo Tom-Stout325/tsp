@@ -157,6 +157,7 @@ html {
   background-image: url("https://photos.smugmug.com/Website/Logos/i-P3htNjX/0/fcd59a1b/M/14_b-M.png");
   min-height: 100%;
   position: relative;
+  width: 50%;
   opacity: 0.8;
   background-position: center;
   background-size: cover;
