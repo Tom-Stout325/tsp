@@ -22,19 +22,19 @@ html {
   background-attachment: fixed;
 }
 .pimg1 {
-  background-image: url("/images/Lighthouse.jpg");
+  background-image: url("/images/lighthouse.jpg");
   min-height: 100%;
 }
 .pimg2 {
-  background-image: url("/images/Grandkids.jpg");
+  background-image: url("/images/grandkids.jpg");
   min-height: 800px;
 }
 .pimg3 {
-  background-image: url("/images/Slider_5.jpg");
+  background-image: url("/images/slider_5.jpg");
   min-height: 1000px;
 }
 .pimg4 {
-  background-image: url("/images/Slider_4.jpg");
+  background-image: url("/images/slider_4.jpg");
   min-height: 800px;
 }
 .section {
