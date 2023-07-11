@@ -22,19 +22,19 @@ html {
   background-attachment: fixed;
 }
 .pimg1 {
-  background-image: url("/images/lighthouse.jpg");
+  background-image: url("https://photos.smugmug.com/Galleries/Drone/i-m8Z4LBC/0/ea630cfe/X3/lighthouse-X3.jpg");
   min-height: 100%;
 }
 .pimg2 {
-  background-image: url("/images/grandkids.jpg");
+  background-image: url("https://photos.smugmug.com/Galleries/Portraits/i-fFg3mtr/0/d6f66b03/X3/Grandkids%207-X3.jpg");
   min-height: 800px;
 }
 .pimg3 {
-  background-image: url("/images/slider_5.jpg");
+  background-image: url("https://photos.smugmug.com/Website/Seniors/i-BtjHNkw/0/b7377c46/XL/slider_5-XL.jpg");
   min-height: 1000px;
 }
 .pimg4 {
-  background-image: url("/images/slider_4.jpg");
+  background-image: url("https://photos.smugmug.com/Galleries/WeddingsGallery/i-58mRCgg/0/87c98394/XL/slider_4-XL.jpg");
   min-height: 800px;
 }
 .section {
