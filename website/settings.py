@@ -18,7 +18,7 @@ SECRET_KEY = os.environ.get(
     default=secrets.token_urlsafe(nbytes=64),
 )
 
-IS_HEROKU_APP = "DYNO" in os.environ and not "CI" in os.environ
+# IS_HEROKU_APP = "DYNO" in os.environ and not "CI" in os.environ
 
 ALLOWED_HOSTS = ['tsp-website-e440e7e574bc.herokuapp.com']
           
@@ -91,7 +91,7 @@ WSGI_APPLICATION = 'website.wsgi.application'
 #     }
 
 
-Changed:
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
