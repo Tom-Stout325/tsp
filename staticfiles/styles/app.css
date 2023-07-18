@@ -24,6 +24,8 @@ html {
 .pimg1 {
   background-image: url("https://photos.smugmug.com/Galleries/Drone/i-m8Z4LBC/0/ea630cfe/X3/lighthouse-X3.jpg");
   min-height: 100%;
+  max-width: 100%;
+  
 }
 .pimg2 {
   background-image: url("https://photos.smugmug.com/Website/Website-Images/i-hNzCrGd/0/13151bd1/X2/grandkids-X2.jpg");
