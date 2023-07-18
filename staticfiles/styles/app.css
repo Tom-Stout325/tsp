@@ -25,19 +25,22 @@ html {
   background-image: url("https://photos.smugmug.com/Galleries/Drone/i-m8Z4LBC/0/ea630cfe/X3/lighthouse-X3.jpg");
   min-height: 100%;
   max-width: 100%;
-  
+
 }
 .pimg2 {
   background-image: url("https://photos.smugmug.com/Website/Website-Images/i-hNzCrGd/0/13151bd1/X2/grandkids-X2.jpg");
   min-height: 800px;
+  max-width: 100%;
 }
 .pimg3 {
   background-image: url("https://photos.smugmug.com/Website/Website-Images/i-BtjHNkw/0/b7377c46/XL/slider_5-XL.jpg");
   min-height: 1000px;
+  max-width: 100%;
 }
 .pimg4 {
   background-image: url("https://photos.smugmug.com/Website/Website-Images/i-58mRCgg/0/87c98394/XL/slider_4-XL.jpg");
   min-height: 800px;
+  max-width: 100%;
 }
 .section {
   text-align: center;
@@ -104,6 +107,7 @@ html {
 .port1 {
   background-image: url("/images/portfolio_header.jpg");
   min-height: 90%;
+  max-width: 100%;
   position: relative;
   opacity: 0.8;
   background-position: center;
@@ -115,6 +119,7 @@ html {
   margin-top: 20px;
   background-image: url("https://photos.smugmug.com/Galleries/Senior-Portraits/i-XMpzKr7/0/b5691e0e/X2/21-0005-0562-E-X2.jpg");
   min-height: 100%;
+  max-width: 100%;
   position: relative;
   opacity: 0.8;
   background-position: center;
@@ -126,6 +131,7 @@ html {
   margin-top: 20px;
   background-image: url("https://photos.smugmug.com/Galleries/WeddingsGallery/i-7HmQ4PK/0/54f3492d/X2/IMG_0713-Edit-Edit-X2.jpg");
   min-height: 100%;
+  max-width: 100%;
   position: relative;
   opacity: 0.8;
   background-position: center;
@@ -137,6 +143,7 @@ html {
   margin-top: 20px;
   background-image: url("https://photos.smugmug.com/Galleries/Portraits/i-sMhjBpX/0/e2278d29/X2/21-0009-345-169-Edit-X2.jpg");
   min-height: 100%;
+  max-width: 100%;
   position: relative;
   opacity: 0.8;
   background-position: center;
@@ -148,6 +155,7 @@ html {
   margin-top: 20px;
   background-image: url("https://photos.smugmug.com/Galleries/Senior-Portraits/i-XMpzKr7/0/b5691e0e/X2/21-0005-0562-E-X2.jpg");
   min-height: 100%;
+  max-width: 100%;
   position: relative;
   opacity: 0.8;
   background-position: center;
@@ -158,6 +166,7 @@ html {
 .about1 {
   background-image: url("https://photos.smugmug.com/Website/Website-Images/i-NbSp8Bh/0/a86ea001/X4/About1-X4.jpg");
   min-height: 100%;
+  max-width: 100%;
   position: relative;
   opacity: 0.8;
   background-position: center;
@@ -169,6 +178,7 @@ html {
   margin-top: 20px;
   background-image: url("https://photos.smugmug.com/Galleries/Portraits/i-hLrBsx3/0/28ceb7e0/X2/18-0114-113-Edit-Edit-X2.jpg");
   min-height: 100%;
+  max-width: 100%;
   position: relative;
   opacity: 0.8;
   background-position: center;
