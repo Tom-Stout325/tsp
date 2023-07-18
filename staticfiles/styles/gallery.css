@@ -1,5 +1,6 @@
 .gallery-container {
-  width: 90%;
+  max-width: 100%;
+  height: auto;
   margin: auto;
 }
 
@@ -16,7 +17,7 @@
 
 .column img {
   vertical-align: middle;
-  width: 100%;
+  width: 15%;
   padding: 10px;
 }
 
