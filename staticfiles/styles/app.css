@@ -144,7 +144,7 @@ html {
 }
 .port1 {
   margin-top: 20px;
-  background-image: url("https://photos.smugmug.com/Galleries/Portraits/i-sMhjBpX/0/e2278d29/X2/21-0009-345-169-Edit-X2.jpg");
+  background-image: url("https://photos.smugmug.com/Galleries/Portraits/i-VPSDSjZ/0/667a81f5/X2/21-0009-338-134-135-136-X2.jpg");
   min-height: 100%;
   max-width: 100%;
   position: relative;
@@ -157,30 +157,6 @@ html {
 .drone1 {
   margin-top: 20px;
   background-image: url("https://photos.smugmug.com/Galleries/Senior-Portraits/i-XMpzKr7/0/b5691e0e/X2/21-0005-0562-E-X2.jpg");
-  min-height: 100%;
-  max-width: 100%;
-  position: relative;
-  opacity: 0.8;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-/* .about1 {
-  margin-top: 20px;   
-  background-image: url("https://photos.smugmug.com/Website/Website-Images/i-NbSp8Bh/0/a86ea001/X2/About1-X2.jpg");
-  min-height: 100%;
-  max-width: 100%;
-  position: relative;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-} */
-.newPage {
-  margin-top: 20px;
-  background-image: url("https://photos.smugmug.com/Galleries/Portraits/i-hLrBsx3/0/28ceb7e0/X2/18-0114-113-Edit-Edit-X2.jpg");
   min-height: 100%;
   max-width: 100%;
   position: relative;
