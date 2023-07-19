@@ -165,8 +165,8 @@ html {
 }
 .about1 {
   background-image: url("https://photos.smugmug.com/Website/Website-Images/i-NbSp8Bh/0/a86ea001/X4/About1-X4.jpg");
-  min-height: auto;
-  max-width: 50%;
+  min-height: 100%;
+  max-width: 100%;
   position: relative;
   opacity: 0.8;
   background-position: center;
