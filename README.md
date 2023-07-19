@@ -6,7 +6,9 @@
 
 <h4 align="center">Website and Studio Management Application </h4>
 
-> This project is a website and studio management application built using Python, Django and PostgreSQL.
+> This project is a website and studio management application built using Python, Django and PostgreSQL, and is my photography website.
+
+> See the working website here: www.tom-stout.com
 
 ## Technology Stack:
 
