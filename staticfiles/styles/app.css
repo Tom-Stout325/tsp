@@ -167,12 +167,24 @@ html {
   background-attachment: fixed;
 }
 
-.about1 {
+/* .about1 {
   margin-top: 20px;   
   background-image: url("https://photos.smugmug.com/Website/Website-Images/i-NbSp8Bh/0/a86ea001/X2/About1-X2.jpg");
   min-height: 100%;
   max-width: 100%;
   position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} */
+.about1 {
+  margin-top: 20px;
+  background-image: url("https://photos.smugmug.com/Galleries/Senior-Portraits/i-XMpzKr7/0/b5691e0e/X2/21-0005-0562-E-X2.jpg");
+  min-height: 100%;
+  max-width: 100%;
+  position: relative;
+  opacity: 0.8;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
