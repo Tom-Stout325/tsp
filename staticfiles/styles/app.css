@@ -163,7 +163,9 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 .about1 {
+  margin-top: 20px;
   background-image: url("https://photos.smugmug.com/Website/Website-Images/i-NbSp8Bh/0/a86ea001/X4/About1-X4.jpg");
   min-height: 100%;
   max-width: 100%;
@@ -174,6 +176,7 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 .clients1 {
   margin-top: 20px;
   background-image: url("https://photos.smugmug.com/Galleries/Portraits/i-hLrBsx3/0/28ceb7e0/X2/18-0114-113-Edit-Edit-X2.jpg");
