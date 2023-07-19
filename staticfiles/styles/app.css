@@ -178,18 +178,6 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed;
 } */
-.clients2 {
-  margin-top: 20px;
-  background-image: url("https://photos.smugmug.com/Galleries/Portraits/i-hLrBsx3/0/28ceb7e0/X2/18-0114-113-Edit-Edit-X2.jpg");
-  min-height: 100%;
-  max-width: 100%;
-  position: relative;
-  opacity: 0.8;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
 
 .clients1 {
   margin-top: 20px;
