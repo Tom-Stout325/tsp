@@ -1,6 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap");
 
-
+@viewport {
+  width: device-width;
+  zoom: 1.1;
+  min-zoom: 0.4;
+  max-zoom: 2;
+  user-zoom: fixed;
+  }
+  
 /* perpendicular-camellia-8djqajua0ecencvtjf33sqp8.herokudns.com */
 
 body,
