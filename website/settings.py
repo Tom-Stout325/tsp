@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     "whitenoise.runserver_nostatic",
 
     'photo.apps.PhotoConfig',
-    'fontawesomefree',
+    'django_bootstrap_icons',
     'bootstrap5',
 ]
 
@@ -128,16 +128,14 @@ USE_TZ = True
 STATIC_ROOT = BASE_DIR / "static"
 STATIC_URL = "static/"
 
-# STORAGES = {
-#     "staticfiles": {
-#         "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
-#     },
-# }
+BOOTSTRAP5 = {
+    "error_css_class": "bootstrap5-error",
+    "required_css_class": "bootstrap5-required",
+    "javascript_in_head": True,
+}
 
-# WHITENOISE_KEEP_ONLY_HASHED_FILES = True
 
-# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+BS_ICONS_BASE_URL = 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/'
 
-# WHITENOISE_KEEP_ONLY_HASHED_FILES = True
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

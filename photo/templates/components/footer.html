@@ -1,4 +1,5 @@
 {% load static %}
+{% load bootstrap_icons %}
 
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap");
@@ -171,7 +172,7 @@
         <a href="{% url 'home' %}" class="link-1">Home</a>
         <a href="{% url 'clients' %}">Clients</a>
         <a href="{% url 'about' %}">About</a>
-        <a href="{% url 'drones' %}">Drone</a>
+        <a href="{% url 'drones' %}">Airborne Images</a>
         <a href="{% url 'contact' %}">Contact</a>
         </p>
         <p class="footer-company-name">
@@ -183,24 +184,26 @@
         </p>
     </div>
     <div class="footer-center">
-        <div>
-          <i class="fa-solid fa-arrow-right-to-bracket fa-lg"></i>
-          <a href="{% url 'login' %}"><p>Login</p></a>      
+        <div class="mb-2">
+          {% bs_icon 'box-arrow-in-right' size='1.5rem' color='lightgray' %}
+          <a href="{% url 'login' %}">
+          <p> Login</p></a>      
         </div>
-        <div>
-            <i class="fa fa-location-dot fa-2xl"></i>
-            <p>Fishers, Indiana</p>
+        <div class="mb-2">
+          {% bs_icon 'geo-alt-fill' size='1.5rem' color='lightgray' %}
+            <p> Fishers, Indiana</p>
         </div>
-        <div>
-            <i class="fa fa-envelope"></i>
-            <a href="mailto:tom@tom-stout.com"><p>tom@tom-stout.com</p></a>
+        <div class="mb-2">
+          {% bs_icon 'envelope-at' size='1.5rem' color='lightgray' %}
+            <a href="mailto:tom@tom-stout.com">
+              <p>tom@tom-stout.com</p></a>
         </div>
-        <div>
-            <i class="fa fa-file-code fa-xl"></i>
+        <div class="mb-2">
+          {% bs_icon 'code-slash' size='1.5rem' color='lightgray' %}
             <p>Powered By 12bytes</p>
         </div>
-        <div>
-            <i class="fa-brands fa-safari"></i>
+        <div class="mb-2">
+          {% bs_icon 'browser-safari' size='1.2rem' color='lightgray' %}
              <a href="https://12bytes.net"><p>www.12bytes.net</p></a>
         </div>
     </div>
@@ -211,12 +214,15 @@
                 weddings, and stunning aerial photography and video. Trust Tom Stout's
                 artistic vision to create unforgettable memories.
             </p>
-        <div>
-
-            <a class="text-muted" href="https://www.facebook.com/ShotByTom"><i class="fa-brands fa-facebook fa-2xl" style="color: #c4c4c4; padding-left: 0.5rem" ></i></a>
-            <a class="text-muted" href="https://www.instagram.com/the_tom.stout/"><i class="fa-brands fa-instagram fa-2xl" style="color: #c4c4c4; padding-left: 0.5rem"></i></a>
-            <a class="text-muted" href="https://www.youtube.com/channel/UCe7k3O6jQiM_MnY9-rXre4w"><i class="fa-brands fa-square-youtube fa-2xl" style="color: #c4c4c4; padding-left: 0.5rem"></i></a>
-            <a class="text-muted" href="https://www.linkedin.com/in/tom-stout-2ab055211/"><i class="fa-brands fa-youtube fa-2xl" style="color: #c4c4c4; padding-left: 0.5rem"></i></a>
+        <div class="text-center">
+            <a style="padding-right: 1rem" href="https://www.facebook.com/ShotByTom">
+              {% bs_icon 'facebook' size='2rem'  color='lightgray' %}</a>
+            <a style="padding-right: 1rem" href="https://www.instagram.com/the_tom.stout/">
+              {% bs_icon 'instagram' size='2rem' color='lightgray' %}</a>
+            <a style="padding-right: 1rem" href="https://www.youtube.com/channel/UCe7k3O6jQiM_MnY9-rXre4w">
+              {% bs_icon 'youtube' size='2rem' color='lightgray' %}</a>
+            <a style="padding-right: 1rem" href="https://www.linkedin.com/in/tom-stout-2ab055211/">
+              {% bs_icon 'linkedin' size='2rem' color='lightgray' %}</a>
         </div>
     </div>
 </footer>
