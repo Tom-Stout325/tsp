@@ -134,6 +134,12 @@ BOOTSTRAP5 = {
     "javascript_in_head": True,
 }
 
+CSRF_COOKIE_SECURE = True
+
+SESSION_COOKIE_SECURE = True
+
+SECURE_SSL_REDIRECT = True
+
 
 BS_ICONS_BASE_URL = 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/'
 
