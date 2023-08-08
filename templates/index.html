@@ -131,16 +131,13 @@
         {{ Messages }}
       {% endfor %}
     </head>
+    {% include 'navbar.html' %} 
+    {% include 'components/to_the_top.html' %} 
+    {% include 'components/footer.html' %}
     <body>
-      <div class="container">
-        {% if messages %}
-        {% endif %}
-      </div>
+     
       {% block content %}    
-      {% include 'navbar.html' %} 
-      {% include 'components/to_the_top.html' %} 
 
-      {% include 'components/footer.html' %}
       {% endblock %} 
     
     <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
