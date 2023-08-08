@@ -134,7 +134,10 @@
       {% include 'navbar.html' %} 
       {% include 'components/to_the_top.html' %} 
   <body>
-   
+    <div class="container">
+      {% if messages %}
+      {% endif %}
+    </div>
       {% block content %}    
       {% endblock %} 
     
