@@ -18,11 +18,9 @@ SECRET_KEY = os.environ.get(
     default=secrets.token_urlsafe(nbytes=64),
 )
 
-# IS_HEROKU_APP = "DYNO" in os.environ and not "CI" in os.environ
 
 ALLOWED_HOSTS = ['tsp-website-e440e7e574bc.herokuapp.com', '127.0.0.1', 'www.tom-stout.com', 'tom-stout.com']
           
-# if not IS_HEROKU_APP:
 DEBUG = False
 
 INSTALLED_APPS = [
@@ -74,26 +72,6 @@ TEMPLATES = [
 WSGI_APPLICATION = 'website.wsgi.application'
 
 
-
-#  Changed:
-# if IS_HEROKU_APP:
-#     DATABASES = {
-#         "default": dj_database_url.config(
-#             conn_max_age=600,
-#             conn_health_checks=True,
-#             ssl_require=True,
-#         ),
-#     }
-# else:
-#     DATABASES = {
-#         "default": {
-#             "ENGINE": "django.db.backends.sqlite3",
-#             "NAME": BASE_DIR / "db.sqlite3",
-#         }
-#     }
-
-
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -124,8 +102,10 @@ USE_I18N = True
 
 USE_TZ = True
 
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATIC_ROOT = BASE_DIR / "static"
+
 STATIC_URL = "static/"
 
 BOOTSTRAP5 = {
@@ -141,7 +121,3 @@ SESSION_COOKIE_SECURE = True
 SECURE_SSL_REDIRECT = True
 
 
-BS_ICONS_BASE_URL = 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/'
-
-
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

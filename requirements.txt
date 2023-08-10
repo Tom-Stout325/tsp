@@ -18,3 +18,14 @@ sqlparse==0.4.4
 typing_extensions==4.7.0
 urllib3==2.0.4
 whitenoise==6.4.0
+
+
+
+# CSRF_COOKIE_SECURE = True
+
+# SESSION_COOKIE_SECURE = True
+
+# SECURE_SSL_REDIRECT = True
+
+
+# BS_ICONS_BASE_URL = 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/'
