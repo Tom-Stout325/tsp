@@ -36,7 +36,6 @@ INSTALLED_APPS = [
     'photo.apps.PhotoConfig',
     'django_bootstrap_icons',
     'bootstrap5',
-    'embed_video',
 ]
 
 MIDDLEWARE = [
