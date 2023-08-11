@@ -2,11 +2,8 @@
 {% load embed_video_tags %}
 
 <div>
-    {% video item.video as my_video %}
-        URL: {{ https://youtu.be/ftfEinLkvnU }}
-        Thumbnail: {% static 'images/drone_carousel_sf_4.jpg' %}
-        Backend: {{ my_video.backend }}
-
-        {% video my_video "large" %}
-    {% endvideo %}
+    {% for x in videos %}
+        {% video item.url '426x240' %}
+        {{ x.title }}
+    {% endfor %}
 </div>
