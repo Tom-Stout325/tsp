@@ -15,7 +15,7 @@
   </div>
   <section class="section section-light">
     <div class="w-75 mx-auto">
-      <h2  class="text-center">Portrait Photography</h2>
+      <h2 class="text-center">Portrait Photography</h2>
       <p>
         Welcome to my photography website, where moments come alive through the
         lens! Whether you're seeking stunning portraits for personal keepsakes, memorable 
@@ -28,13 +28,11 @@
         that encapsulates a person's identity and individuality. I believe that the 
         power of a portrait lies in its ability to transcend time, evoking nostalgia, 
         joy, and a sense of self-awareness. With this vision in mind, I work tirelessly 
-        to create exquisite portraits that leave a lasting impression.</p>
+        to create exquisite portraits that leave a lasting impression.
       </p>
     </div>
     <div>
-      <div>
-        {% include 'components/drone_btn.html' %}
-      </div>
+      {% include 'components/drone_btn.html' %}
     </div>
   </section>
   <div class="pimg2">
@@ -65,9 +63,9 @@
       <span class="border trans">Airborne Images </span>
     </div>
   </div>
-  <section class="section section-light" >
+  <section class="section section-light text-justify">
     <div class="w-75 mx-auto">
-      <h2 class="text-center mb-4">Drone Photography</h2>
+      <h2 class="text-center">Drone Photography</h2>
       <p>
         As a Federal Aviation Administration (FAA) licensed and insured drone pilot, I am dedicated to capturing awe-inspiring images and creating breathtaking videos from above. Specializing in aerial photography, my passion lies in harnessing the power of drone technology to provide you with unique perspectives that transcend traditional photography.
       </p>
@@ -78,7 +76,9 @@
         Take a moment to explore my portfolio and witness the magic of aerial photography. I invite you to embark on this thrilling visual journey with me, where imagination truly takes flight. Contact me today to discuss your project and let's create something extraordinary together.
       </p>
       <div class="text-center">
-        <a href="{% url 'drones' %}" class="button-79" role="button">Drone Photos & Videos</a>
+        <a href="{% url 'drones' %}">
+          <button class="button-79" role="button">Drone Photos & Videos</button>
+        </a>
       </div>
     </div>
   </section>  
@@ -103,10 +103,11 @@
   <br><br>
   <hr class="style14" />
   <br><br>
-<div>
-  {% include 'components/video.html' %}
-</div>
-
+  <div class="container">
+    {% include 'components/video.html' %}
+  </div>
+  <br><br>
+  <hr class="style14" />
 </body>
 {% endblock %}
   

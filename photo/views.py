@@ -214,11 +214,3 @@ def PortraitsPage(request):
         form=ContactForm()
         return render(request, 'components/port_portraits.html', { 'form': form })
     
-
-
-    def Video(request):
-        videos = Video.objects.all()
-        context = {
-            'video': videos
-        }
-        return render(request, 'components/video.html', context)
