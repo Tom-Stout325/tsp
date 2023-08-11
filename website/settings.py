@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'photo.apps.PhotoConfig',
     'django_bootstrap_icons',
     'bootstrap5',
+    'embed_video',
 ]
 
 MIDDLEWARE = [
@@ -64,7 +65,6 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'django.template.context_processors.request',
             ],
         },
     },
