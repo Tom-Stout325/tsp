@@ -1,15 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap");
 
-@viewport {
-  width: device-width;
-  zoom: 1.1;
-  min-zoom: 0.4;
-  max-zoom: 2;
-  user-zoom: fixed;
-  }
-  
-/* perpendicular-camellia-8djqajua0ecencvtjf33sqp8.herokudns.com */
-
 body,
 html {
   height: 100%;
@@ -32,35 +22,32 @@ html {
   background-attachment: fixed;
 }
 .pimg1 {
-  background-image: url("https://photos.smugmug.com/Galleries/Drone/i-m8Z4LBC/0/ea630cfe/X3/lighthouse-X3.jpg");
+  background-image: url("https://photos.smugmug.com/Galleries/Drone/i-m8Z4LBC/0/ea630cfe/4K/lighthouse-4K.jpg");
   min-height: 100%;
-  max-width: 100%;
-
 }
 .pimg2 {
-  background-image: url("https://photos.smugmug.com/Website/Website-Images/i-hNzCrGd/0/13151bd1/X2/grandkids-X2.jpg");
+  background-image: url("https://photos.smugmug.com/Galleries/Portraits/i-fFg3mtr/0/d6f66b03/X3/Grandkids%207-X3.jpg");
   min-height: 800px;
-  max-width: 100%;
 }
 .pimg3 {
-  background-image: url("https://photos.smugmug.com/Website/Website-Images/i-BtjHNkw/0/b7377c46/XL/slider_5-XL.jpg");
+  background-image: url("https://photos.smugmug.com/Website/n-6x35Gw/Website-Images/i-GRxVB4N/0/d65cc347/X4/21-0005-0572-E-X4.jpg");
   min-height: 1000px;
-  max-width: 100%;
 }
 .pimg4 {
-  background-image: url("https://photos.smugmug.com/Website/Website-Images/i-58mRCgg/0/87c98394/XL/slider_4-XL.jpg");
+  background-image: url("https://photos.smugmug.com/Galleries/WeddingsGallery/i-nQC7ptT/0/9a3a2f05/X4/IMG_9129-X4.jpg");
   min-height: 800px;
-  max-width: 100%;
 }
 .section {
-  text-align: center;
+  text-align: justify;
   padding: 50px 80px;
 }
 .section-light {
+  text-align: justify;
   background-color: #f4f4f4;
   color: #666;
 }
 .section-dark {
+  text-align: justify;
   background-color: #282e34;
   color: #ddd;
 }
@@ -117,7 +104,6 @@ html {
 .port1 {
   background-image: url("/images/portfolio_header.jpg");
   min-height: 90%;
-  max-width: 100%;
   position: relative;
   opacity: 0.8;
   background-position: center;
@@ -129,7 +115,6 @@ html {
   margin-top: 20px;
   background-image: url("https://photos.smugmug.com/Galleries/Senior-Portraits/i-XMpzKr7/0/b5691e0e/X2/21-0005-0562-E-X2.jpg");
   min-height: 100%;
-  max-width: 100%;
   position: relative;
   opacity: 0.8;
   background-position: center;
@@ -139,9 +124,8 @@ html {
 }
 .wedding1 {
   margin-top: 20px;
-  /* background-image: url("https://photos.smugmug.com/Galleries/WeddingsGallery/i-7HmQ4PK/0/54f3492d/X2/IMG_0713-Edit-Edit-X2.jpg"); */
+  background-image: url("https://photos.smugmug.com/Galleries/WeddingsGallery/i-7HmQ4PK/0/54f3492d/X2/IMG_0713-Edit-Edit-X2.jpg");
   min-height: 100%;
-  max-width: 100%;
   position: relative;
   opacity: 0.8;
   background-position: center;
@@ -151,9 +135,8 @@ html {
 }
 .port1 {
   margin-top: 20px;
-  background-image: url("https://photos.smugmug.com/Galleries/Portraits/i-VPSDSjZ/0/667a81f5/X2/21-0009-338-134-135-136-X2.jpg");
+  background-image: url("https://photos.smugmug.com/Galleries/Portraits/i-sMhjBpX/0/e2278d29/X2/21-0009-345-169-Edit-X2.jpg");
   min-height: 100%;
-  max-width: 100%;
   position: relative;
   opacity: 0.8;
   background-position: center;
@@ -165,7 +148,16 @@ html {
   margin-top: 20px;
   background-image: url("https://photos.smugmug.com/Galleries/Senior-Portraits/i-XMpzKr7/0/b5691e0e/X2/21-0005-0562-E-X2.jpg");
   min-height: 100%;
-  max-width: 100%;
+  position: relative;
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.about1 {
+  background-image: url("/images/14_c.png");
+  min-height: 100%;
   position: relative;
   opacity: 0.8;
   background-position: center;
@@ -177,7 +169,6 @@ html {
   margin-top: 20px;
   background-image: url("https://photos.smugmug.com/Galleries/Portraits/i-hLrBsx3/0/28ceb7e0/X2/18-0114-113-Edit-Edit-X2.jpg");
   min-height: 100%;
-  max-width: 100%;
   position: relative;
   opacity: 0.8;
   background-position: center;
@@ -196,19 +187,6 @@ hr.style14 {
 }
 
 
-/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  About Page =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
-
-
-.img-fluid {
-  float: left;
-  width: 200px;
-  shape-outside: circle(50%);
-  margin-right: 1rem;
-
-}
-
-
-
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  Cusstom Button  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 
 
@@ -216,14 +194,14 @@ hr.style14 {
 
 .button-79 {
   backface-visibility: hidden;
-  background: #332cf2;
+  background:  #2c6fbb;
   border: 0;
   border-radius: .375rem;
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: Circular,Helvetica,sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.125rem;
   font-weight: 700;
   letter-spacing: -.01em;
