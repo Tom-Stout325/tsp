@@ -6,6 +6,7 @@ dj-database-url==2.0.0
 Django==4.2.1
 django-bootstrap-icons==0.8.3
 django-bootstrap-v5==1.0.11
+django-embed-video==1.4.9
 django-environ==0.10.0
 gunicorn==20.1.0
 idna==3.4
@@ -18,14 +19,3 @@ sqlparse==0.4.4
 typing_extensions==4.7.0
 urllib3==2.0.4
 whitenoise==6.4.0
-
-
-
-# CSRF_COOKIE_SECURE = True
-
-# SESSION_COOKIE_SECURE = True
-
-# SECURE_SSL_REDIRECT = True
-
-
-# BS_ICONS_BASE_URL = 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/'

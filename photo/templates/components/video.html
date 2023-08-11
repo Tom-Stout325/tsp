@@ -1,7 +1,12 @@
 {% load static %}
+{% load embed_video_tags %}
 
 <div>
-    <video name='demo' controls autoplay width='50%' height='40%'>
-        <source href="https://youtu.be/ftfEinLkvnU" type="video/mp4"></source>
-        </video>
+    {% video item.video as my_video %}
+        URL: {{ https://youtu.be/ftfEinLkvnU }}
+        Thumbnail: {% static 'images/drone_carousel_sf_4.jpg' %}
+        Backend: {{ my_video.backend }}
+
+        {% video my_video "large" %}
+    {% endvideo %}
 </div>
