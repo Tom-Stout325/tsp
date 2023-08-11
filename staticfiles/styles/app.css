@@ -38,18 +38,18 @@ html {
   min-height: 800px;
 }
 .section {
-  text-align: justify;
+  text-align: center;
   padding: 50px 80px;
 }
 .section-light {
-  text-align: justify;
   background-color: #f4f4f4;
   color: #666;
+  text-align: justify;
 }
 .section-dark {
-  text-align: justify;
   background-color: #282e34;
   color: #ddd;
+  text-align: justify;
 }
 .ptext {
   position: absolute;
@@ -189,12 +189,9 @@ hr.style14 {
 
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  Cusstom Button  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 
-
-/* <button class="button-79" role="button">Button 79</button> */
-
 .button-79 {
   backface-visibility: hidden;
-  background:  #2c6fbb;
+  background: #515F8F;
   border: 0;
   border-radius: .375rem;
   box-sizing: border-box;
@@ -252,3 +249,4 @@ hr.style14 {
 .button-79:not(:disabled):active {
   transform: translateY(.125rem);
 }
+
