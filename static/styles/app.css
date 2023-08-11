@@ -44,10 +44,12 @@ html {
 .section-light {
   background-color: #f4f4f4;
   color: #666;
+  text-align: justify;
 }
 .section-dark {
   background-color: #282e34;
   color: #ddd;
+  text-align: justify;
 }
 .ptext {
   position: absolute;
@@ -187,19 +189,16 @@ hr.style14 {
 
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  Cusstom Button  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 
-
-/* <button class="button-79" role="button">Button 79</button> */
-
 .button-79 {
   backface-visibility: hidden;
-  background: #332cf2;
+  background: #515F8F;
   border: 0;
   border-radius: .375rem;
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: Circular,Helvetica,sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.125rem;
   font-weight: 700;
   letter-spacing: -.01em;
