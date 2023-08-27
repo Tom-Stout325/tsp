@@ -34,7 +34,7 @@ INSTALLED_APPS = [
     "whitenoise.runserver_nostatic",
 
     'photo.apps.PhotoConfig',
-    'fontawesomefree',
+    
     'bootstrap5',
 ]
 
