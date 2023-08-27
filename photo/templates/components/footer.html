@@ -1,5 +1,4 @@
 {% load static %}
-{% load bootstrap_icons %}
 
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap");
@@ -162,7 +161,7 @@
 <div class="container">
   {% include 'components/social_media.html' %}
 </div>
-<div class="container">
+<div class="mb-5">
   {% include 'components/contact_form.html' %}
 </div>
 <footer class="footer-distributed">
@@ -185,25 +184,25 @@
     </div>
     <div class="footer-center">
         <div class="mb-2">
-          {% bs_icon 'box-arrow-in-right' size='1.5rem' color='lightgray' %}
+          <i class="fa-solid fa-arrow-right-to-bracket" style="color: #e3e3e3;"></i>
           <a href="{% url 'login' %}">
           <p> Login</p></a>      
         </div>
         <div class="mb-2">
-          {% bs_icon 'geo-alt-fill' size='1.5rem' color='lightgray' %}
+          <i class="fa-solid fa-location-dot" style="color: #e3e3e3;"></i>
             <p> Fishers, Indiana</p>
         </div>
         <div class="mb-2">
-          {% bs_icon 'envelope-at' size='1.5rem' color='lightgray' %}
+          <i class="fa-solid fa-at" style="color: #e3e3e3;"></i>
             <a href="mailto:tom@tom-stout.com">
               <p>tom@tom-stout.com</p></a>
         </div>
         <div class="mb-2">
-          {% bs_icon 'code-slash' size='1.5rem' color='lightgray' %}
+          <i class="fa-regular fa-code" style="color: #e3e3e3;"></i>
             <p>Powered By 12bytes</p>
         </div>
         <div class="mb-2">
-          {% bs_icon 'browser-safari' size='1.2rem' color='lightgray' %}
+          <i class="fa-light fa-globe-pointer" style="color: #e3e3e3;"></i>
              <a href="https://12bytes.net"><p>www.12bytes.net</p></a>
         </div>
     </div>
@@ -216,13 +215,13 @@
             </p>
         <div class="text-center">
             <a style="padding-right: 1rem" href="https://www.facebook.com/ShotByTom">
-              {% bs_icon 'facebook' size='2rem'  color='lightgray' %}</a>
+              <i class="fa-brands fa-facebook fs-3" style="color: #e3e3e3;"></i></a>
             <a style="padding-right: 1rem" href="https://www.instagram.com/the_tom.stout/">
-              {% bs_icon 'instagram' size='2rem' color='lightgray' %}</a>
+              <i class="fa-brands fa-square-instagram fs-3" style="color: #e3e3e3;"></i></a>
             <a style="padding-right: 1rem" href="https://www.youtube.com/channel/UCe7k3O6jQiM_MnY9-rXre4w">
-              {% bs_icon 'youtube' size='2rem' color='lightgray' %}</a>
+              <i class="fa-brands fa-youtube fs-3" style="color: #e3e3e3;"></i></a>
             <a style="padding-right: 1rem" href="https://www.linkedin.com/in/tom-stout-2ab055211/">
-              {% bs_icon 'linkedin' size='2rem' color='lightgray' %}</a>
+              <i class="fa-brands fa-linkedin fs-3" style="color: #e3e3e3;"></i></a>
         </div>
     </div>
 </footer>

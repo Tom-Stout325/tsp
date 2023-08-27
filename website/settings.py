@@ -34,7 +34,7 @@ INSTALLED_APPS = [
     "whitenoise.runserver_nostatic",
 
     'photo.apps.PhotoConfig',
-    'django_bootstrap_icons',
+    'fontawesomefree',
     'bootstrap5',
 ]
 
