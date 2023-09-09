@@ -13,6 +13,11 @@
     rel="stylesheet"
     type="text/css"/>
 
+  <link
+    href="{% static 'styles/lightbox.css' %}"
+    rel="stylesheet"
+    type="text/css"/>
+
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9XVX4349YF"></script>
 <script>
@@ -49,75 +54,58 @@
       <img style="width: 60%;" src="{% static 'images/LogoAirborneImages.png' %}" alt="Airborn Images">
     </div>
   </div>
-  <div class="drone-grid mt-5 mb-5 ">
-    <ul class="drone-gallery">
-      <li>
-        <a href="https://photos.smugmug.com/Galleries/Drone/i-ShcmSRH/0/13b1deac/X3/Arch-X3.jpg" target="blank" data-lightbox="drone" data-title="Caption">
-        <img src="https://photos.smugmug.com/Galleries/Drone/i-ShcmSRH/0/13b1deac/X3/Arch-X3.jpg" alt="Drone Photos & Video" /></a>
-      </li>
-      <li>
-        <a href="https://photos.smugmug.com/Galleries/Drone/i-hhLk96D/0/13d24afa/X3/Bolinas%20CA-X3.png" target="blank" data-lightbox="drone" data-title="Caption">
+  <div class="container">
+    <div class="gallery">     
+        <a href="https://photos.smugmug.com/Galleries/Drone/i-ShcmSRH/0/13b1deac/X3/Arch-X3.jpg" data-lightbox="Drone Work" data-title="Drone Photos & Video">
+        <img src="https://photos.smugmug.com/Galleries/Drone/i-ShcmSRH/0/13b1deac/X3/Arch-X3.jpg" alt="Drone Photos & Video" /></a>     
+      
+        <a href="https://photos.smugmug.com/Galleries/Drone/i-hhLk96D/0/13d24afa/X3/Bolinas%20CA-X3.png" data-lightbox="Drone Work" data-title="Drone Photos & Video">
         <img src="https://photos.smugmug.com/Galleries/Drone/i-hhLk96D/0/13d24afa/X3/Bolinas%20CA-X3.png" alt="Drone Photos & Video" /></a>
-      </li>
-      <li>
-        <a href="https://photos.smugmug.com/Galleries/Drone/i-JQNzHT2/0/784baf37/X3/Bristol-X3.jpg" target="blank" data-lightbox="drone" data-title="Caption">
+      
+        <a href="https://photos.smugmug.com/Galleries/Drone/i-gPBSqB4/0/ef7613b1/1920/Rainier%20hyperlapse-1920.mp4" target="blank"> 
+          <img src="{% static 'images/Ranier.png' %}" alt="Drone Video" /></a>
+      
+        <a href="https://photos.smugmug.com/Galleries/Drone/i-JQNzHT2/0/784baf37/X3/Bristol-X3.jpg" data-lightbox="Drone Work" data-title="Drone Photos & Video">
         <img src="https://photos.smugmug.com/Galleries/Drone/i-JQNzHT2/0/784baf37/X3/Bristol-X3.jpg" alt="Drone Photos & Video" /></a>
-      </li>
-      <li>
-        <a href="https://photos.smugmug.com/Galleries/Drone/i-9nwTjV4/0/4c39ec7a/X3/Bristol%20TN-X3.png" target="blank" data-lightbox="drone" data-title="Caption">
-        <img src="https://photos.smugmug.com/Galleries/Drone/i-9nwTjV4/0/4c39ec7a/X3/Bristol%20TN-X3.png" alt="Drone Photos & Video" /></a>
-      </li>
-      <li>
-        <a href="https://photos.smugmug.com/Galleries/Drone/i-9nwTjV4/0/4c39ec7a/X3/Bristol%20TN-X3.png" target="blank" data-lightbox="drone" data-title="Caption">
+           
+        <a href="https://photos.smugmug.com/Galleries/Drone/i-9nwTjV4/0/4c39ec7a/X3/Bristol%20TN-X3.png" data-lightbox="Drone Work" data-title="Drone Photos & Video">
+        <img src="https://photos.smugmug.com/Galleries/Drone/i-9nwTjV4/0/4c39ec7a/X3/Bristol%20TN-X3.png" alt="Drone Photos & Video" /></a>      
+      
+        <a href="https://photos.smugmug.com/Galleries/Drone/i-9nwTjV4/0/4c39ec7a/X3/Bristol%20TN-X3.png" data-lightbox="Drone Work" data-title="Drone Photos & Video">
         <img src="https://photos.smugmug.com/Galleries/Drone/i-jrRwh6G/0/132968fb/X3/Lighthouse-X3.jpg" alt="Drone Photos & Video" /></a>
-      </li>
-      <li>
-        <a href="https://photos.smugmug.com/Galleries/Drone/i-D8XBcTs/0/89fd98d6/1280/Waterfalls%20-%20HD%201080p-1280.mp4" target="blank" data-lightbox="drone" data-title="Caption">
+      
+        <a href="https://photos.smugmug.com/Galleries/Drone/i-D8XBcTs/0/89fd98d6/1280/Waterfalls%20-%20HD%201080p-1280.mp4"  target="blank"> 
           <img src="{% static 'images/WaterfallCover.png' %}" alt="Drone Video"></a>
-      </li>
-      <li>
-        <a href="https://photos.smugmug.com/Galleries/Drone/i-nHbNCJr/0/d14e77df/XL/Denver%20Mile%20High%20Nationals-XL.jpg" target="blank" data-lightbox="drone" data-title="Caption">
+      
+        <a href="https://photos.smugmug.com/Galleries/Drone/i-nHbNCJr/0/d14e77df/XL/Denver%20Mile%20High%20Nationals-XL.jpg" data-lightbox="Drone Work" data-title="Drone Photos & Video">
           <img src="{% static 'images/Denver_cover.png' %}" alt="Drone Video" /></a>
-      </li>
-      <li>
-        <a href="https://photos.smugmug.com/Galleries/Drone/i-mvNMMtc/0/35fbfad3/XL/SEA_00295-2-XL.jpg" target="blank" data-lightbox="drone" data-title="Caption">
+           
+        <a href="https://photos.smugmug.com/Galleries/Drone/i-mvNMMtc/0/35fbfad3/XL/SEA_00295-2-XL.jpg" data-lightbox="Drone Work" data-title="Drone Photos & Video">
         <img src="https://photos.smugmug.com/Galleries/Drone/i-mvNMMtc/0/35fbfad3/XL/SEA_00295-2-XL.jpg" alt="Drone Photos & Video" /></a>
-      </li>
-      <li>
-        <a href="https://photos.smugmug.com/Galleries/Drone/i-9nwTjV4/0/4c39ec7a/X3/Bristol%20TN-X3.png">
-        <img src="https://photos.smugmug.com/Galleries/Drone/i-9nwTjV4/0/4c39ec7a/X3/Bristol%20TN-X3.png" alt="Drone Photos & Video" /></a>
-      </li>
-      <li>
-        <a href="https://photos.smugmug.com/Galleries/Drone/i-tmFMd73/0/1fb6ad32/1280/Bolinas%2C%20CA-1280.mp4"> 
+      
+        <a href="https://photos.smugmug.com/Galleries/Drone/i-tmFMd73/0/1fb6ad32/1280/Bolinas%2C%20CA-1280.mp4" target="blank"> 
           <img src="{% static 'images/Balinas_Cover.jpg' %}" alt="Drone Video" /></a>
-      </li>
-      <li>
-        <a href="https://photos.smugmug.com/Galleries/Drone/i-mHrsXFq/0/228135c8/1280/Sunset%20over%20the%20Arch-1280.mp4"> 
+           
+        <a href="https://photos.smugmug.com/Galleries/Drone/i-mHrsXFq/0/228135c8/1280/Sunset%20over%20the%20Arch-1280.mp4" target="blank"> 
           <img src="{% static 'images/Arch_Cover.png' %}" alt="Drone Video" /></a>
-      </li>
-      <li>
-        <a href="https://photos.smugmug.com/Galleries/Drone/i-KK37ZKm/0/86321926/X4/SEA_00147-X4.jpg">
+         
+        <a href="https://photos.smugmug.com/Galleries/Drone/i-KK37ZKm/0/86321926/X4/SEA_00147-X4.jpg" data-lightbox="Drone Work" data-title="Drone Photos & Video">
         <img src="https://photos.smugmug.com/Galleries/Drone/i-KK37ZKm/0/86321926/X4/SEA_00147-X4.jpg" alt="Drone Photos & Video" /></a>
-      </li>   
-      <li>
-        <a href="https://photos.smugmug.com/Galleries/Drone/i-DTbxBkb/0/e1c7b371/X4/Screenshot%202023-01-02%20at%204.34.37%20PM-X4.jpg">
+         
+        <a href="https://photos.smugmug.com/Galleries/Drone/i-DTbxBkb/0/e1c7b371/X4/Screenshot%202023-01-02%20at%204.34.37%20PM-X4.jpg" data-lightbox="Drone Work" data-title="Drone Photos & Video">
         <img src="https://photos.smugmug.com/Galleries/Drone/i-DTbxBkb/0/e1c7b371/X4/Screenshot%202023-01-02%20at%204.34.37%20PM-X4.jpg" alt="Drone Photos & Video" /></a>
-      </li>
-      <li>
-        <a href="https://photos.smugmug.com/Galleries/Drone/i-Sc3mQPf/0/63004f86/X4/SEA_00126-X4.jpg">
+      
+        <a href="https://photos.smugmug.com/Galleries/Drone/i-Sc3mQPf/0/63004f86/X4/SEA_00126-X4.jpg" data-lightbox="Drone Work" data-title="Drone Photos & Video">
         <img src="https://photos.smugmug.com/Galleries/Drone/i-Sc3mQPf/0/63004f86/X4/SEA_00126-X4.jpg" alt="Drone Photos & Video" /></a>
-      </li>
-      <li>
-        <a href="https://photos.smugmug.com/Galleries/Drone/i-sVrT8Vg/0/11c2b77c/XL/SEA_00241-XL.jpg">
-        <img src="https://photos.smugmug.com/Galleries/Drone/i-sVrT8Vg/0/11c2b77c/XL/SEA_00241-XL.jpg" alt="Drone Photos & Video" /></a>
-      </li>
-      <li>
-        <a href="https://photos.smugmug.com/Galleries/Drone/i-PsLmp7Z/0/71b5464c/X4/Death%20Valley-X4.jpg">
-        <img src="https://photos.smugmug.com/Galleries/Drone/i-PsLmp7Z/0/71b5464c/X4/Death%20Valley-X4.jpg" alt="Drone Photos & Video" /></a>
-      </li>
-    </ul>
+
+        <a href="https://photos.smugmug.com/Galleries/Drone/i-QH6DMj8/0/7dddebd9/1920/IMS%202023-1920.mp4" target="blank"> 
+          <img src="{% static 'images/indy.png' %}" alt="Drone Video" /></a>
+
+        <a href="https://photos.smugmug.com/Galleries/Drone/i-Qwpj9Tx/0/addf5f13/1920/US%20Nationals-1920.mp4" target="blank"> 
+          <img src="{% static 'images/usNats.png' %}" alt="Drone Video" /></a>
+   </div>
   </div>
-    <br>
+  <br>
   <hr class="style14 mb-5" />
   <div class="container text-center mb-5">
     <div class="airdata">
@@ -131,9 +119,10 @@
   <hr class="style14 mb-5" />
     <br>    
     <br>
-    <div class="container">
-      {% include 'components/video.html' %}
-    </div>
+  <div>
+    {% include 'components/video.html' %}
+  </div>
+  <script src="{% static 'js/lightbox-plus-jquery.js' %}"></script>
   <script src="{% static 'js/object-fit-videos.js' %}"></script>
   <script src="{% static 'js/app.js' %}"></script>
 </body>

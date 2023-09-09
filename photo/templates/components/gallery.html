@@ -1,69 +1,113 @@
 {% load static %}
 
-<link
-  href="{% static 'styles/gallery.css' %}"
-  rel="stylesheet"
-  type="text/css"/>
+<head>
+  <link
+    href="{% static 'styles/lightbox.css' %}"
+    rel="stylesheet"
+    type="text/css"/>
+</head>
 
-<div class="gallery-container">
-  <div class="row"> 
-    <div class="column">
-      <a href="https://photos.smugmug.com/Galleries/Portraits/i-hLrBsx3/0/28ceb7e0/X2/18-0114-113-Edit-Edit-X2.jpg" target="blank" alt="Tom Stout Photography">
-      <img src= "https://photos.smugmug.com/Galleries/Portraits/i-hLrBsx3/0/28ceb7e0/X2/18-0114-113-Edit-Edit-X2.jpg" alt="Tom Stout Photography"></a>
-      <a href="https://photos.smugmug.com/Galleries/Senior-Portraits/i-9T3DbZM/0/1c229698/X3/20-0006-54-E-X3.jpg" target="blank" alt="Tom Stout Photography">
-      <img src= "https://photos.smugmug.com/Galleries/Senior-Portraits/i-9T3DbZM/0/1c229698/X3/20-0006-54-E-X3.jpg" alt="Tom Stout Photography"></a>
-      <a href="https://photos.smugmug.com/Galleries/WeddingsGallery/i-7HmQ4PK/0/54f3492d/X2/IMG_0713-Edit-Edit-X2.jpg" target="blank" alt="Tom Stout Photography">
-      <img src= "https://photos.smugmug.com/Galleries/WeddingsGallery/i-7HmQ4PK/0/54f3492d/X2/IMG_0713-Edit-Edit-X2.jpg" alt="Tom Stout Photography"></a>
-      <a href="https://photos.smugmug.com/Clients/Senior-Portraits/Ethan/i-79m2956/0/3c78d8c5/X2/23-002-43-52-54-X2.jpg" target="blank" alt="Tom Stout Photography">
-      <img src= "https://photos.smugmug.com/Clients/Senior-Portraits/Ethan/i-79m2956/0/3c78d8c5/X2/23-002-43-52-54-X2.jpg" alt="Tom Stout Photography"></a>
-      <a href="https://photos.smugmug.com/Clients/Weddings/Jeremy-Kiara/i-qFrHhQM/0/1f309e39/X2/23-004-143-Edit2-X2.jpg" target="blank" alt="Tom Stout Photography">
-      <img src= "https://photos.smugmug.com/Clients/Weddings/Jeremy-Kiara/i-qFrHhQM/0/1f309e39/X2/23-004-143-Edit2-X2.jpg" alt="Tom Stout Photography"></a>
-      <a href="https://photos.smugmug.com/Clients/Senior-Portraits/Emma/i-SnHS5sz/0/64605ade/X3/IMG_6902-Edit-X3.jpg" target="blank" alt="Tom Stout Photography">
-      <img src= "https://photos.smugmug.com/Clients/Senior-Portraits/Emma/i-SnHS5sz/0/64605ade/X3/IMG_6902-Edit-X3.jpg" alt="Tom Stout Photography"></a>
-      <a href="https://photos.smugmug.com/Galleries/Portraits/i-3sCXjQ2/0/30b10d06/X2/18-0114-119-Edit-X2.jpg" target="blank" alt="Tom Stout Photography">
-      <img src= "https://photos.smugmug.com/Galleries/Portraits/i-3sCXjQ2/0/30b10d06/X2/18-0114-119-Edit-X2.jpg" alt="Tom Stout Photography"></a>
-    </div>
-    <div class="column">
-      <a href="https://photos.smugmug.com/Galleries/Portraits/i-wLNj8Jn/0/0f38531d/X3/21-0009-311-142-151-153-X3.jpg" target="blank" alt="Tom Stout Photography">
-      <img src= "https://photos.smugmug.com/Galleries/Portraits/i-wLNj8Jn/0/0f38531d/X3/21-0009-311-142-151-153-X3.jpg" alt="Tom Stout Photography"></a>
-      <a href="https://photos.smugmug.com/Galleries/WeddingsGallery/i-L2CgW6L/0/1d8c43de/X3/20-0007_-353-E-soft-X3.jpg" target="blank" alt="Tom Stout Photography">
-      <img src= "https://photos.smugmug.com/Galleries/WeddingsGallery/i-L2CgW6L/0/1d8c43de/X3/20-0007_-353-E-soft-X3.jpg" alt="Tom Stout Photography"></a>
-      <a href="https://photos.smugmug.com/Galleries/Senior-Portraits/i-hkpN86R/0/69b5950d/X2/21-0005-0580-E-X2.jpg" target="blank" alt="Tom Stout Photography">
-      <img src= "https://photos.smugmug.com/Galleries/Senior-Portraits/i-hkpN86R/0/69b5950d/X2/21-0005-0580-E-X2.jpg" alt="Tom Stout Photography"></a>
-      <a href="https://photos.smugmug.com/Galleries/Senior-Portraits/i-2cDXmNz/0/fb5a9a0b/X3/18-0107-255-Edit-X3.jpg" target="blank" alt="Tom Stout Photography">
+<body>
+  <div class="container">
+    <div class="gallery"> 
+    
+      <a href="https://photos.smugmug.com/Galleries/Portraits/i-hLrBsx3/0/28ceb7e0/X2/18-0114-113-Edit-Edit-X2.jpg" data-lightbox="Portfolio" data-title="Maternity Portraits">
+        <img src= "https://photos.smugmug.com/Galleries/Portraits/i-hLrBsx3/0/28ceb7e0/X2/18-0114-113-Edit-Edit-X2.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Galleries/Senior-Portraits/i-9T3DbZM/0/1c229698/X3/20-0006-54-E-X3.jpg" data-lightbox="Portfolio" data-title="Senior Portraits">
+        <img src= "https://photos.smugmug.com/Galleries/Senior-Portraits/i-9T3DbZM/0/1c229698/X3/20-0006-54-E-X3.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Website/n-6x35Gw/Store/i-NBfhcBS/0/addd8cc8/X3/SanFran-67-Enhanced-NR-X3.jpg" data-lightbox="Portfolio" data-title="Kids Portraits">
+        <img src= "https://photos.smugmug.com/Website/n-6x35Gw/Store/i-NBfhcBS/0/addd8cc8/X3/SanFran-67-Enhanced-NR-X3.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Galleries/WeddingsGallery/i-7HmQ4PK/0/54f3492d/X2/IMG_0713-Edit-Edit-X2.jpg" data-lightbox="Portfolio" data-title="Weddings">
+        <img src= "https://photos.smugmug.com/Galleries/WeddingsGallery/i-7HmQ4PK/0/54f3492d/X2/IMG_0713-Edit-Edit-X2.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Clients/Senior-Portraits/Ethan/i-79m2956/0/3c78d8c5/X2/23-002-43-52-54-X2.jpg" data-lightbox="Portfolio" data-title="Senior Portratis">
+        <img src= "https://photos.smugmug.com/Clients/Senior-Portraits/Ethan/i-79m2956/0/3c78d8c5/X2/23-002-43-52-54-X2.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Clients/Weddings/Jeremy-Kiara/i-qFrHhQM/0/1f309e39/X2/23-004-143-Edit2-X2.jpg" data-lightbox="Portfolio" data-title="Weddings">
+        <img src= "https://photos.smugmug.com/Clients/Weddings/Jeremy-Kiara/i-qFrHhQM/0/1f309e39/X2/23-004-143-Edit2-X2.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Clients/Senior-Portraits/Emma/i-SnHS5sz/0/64605ade/X3/IMG_6902-Edit-X3.jpg" data-lightbox="Portfolio" data-title="Senior Portraits">
+        <img src= "https://photos.smugmug.com/Clients/Senior-Portraits/Emma/i-SnHS5sz/0/64605ade/X3/IMG_6902-Edit-X3.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Galleries/Portraits/i-3sCXjQ2/0/30b10d06/X2/18-0114-119-Edit-X2.jpg" data-lightbox="Portfolio" data-title="Maternity Portaits">
+        <img src= "https://photos.smugmug.com/Galleries/Portraits/i-3sCXjQ2/0/30b10d06/X2/18-0114-119-Edit-X2.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Website/n-6x35Gw/Store/i-WhnLBcF/0/73896add/X3/IMG_8927-Edit-X3.jpg" data-lightbox="Portfolio" data-title="Indianapolis Downtown Canal">
+        <img src= "https://photos.smugmug.com/Website/n-6x35Gw/Store/i-WhnLBcF/0/73896add/X3/IMG_8927-Edit-X3.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Galleries/Portraits/i-wLNj8Jn/0/0f38531d/X3/21-0009-311-142-151-153-X3.jpg" data-lightbox="Portfolio" data-title="Kids Portraits">
+        <img src= "https://photos.smugmug.com/Galleries/Portraits/i-wLNj8Jn/0/0f38531d/X3/21-0009-311-142-151-153-X3.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Galleries/WeddingsGallery/i-L2CgW6L/0/1d8c43de/X3/20-0007_-353-E-soft-X3.jpg" data-lightbox="Portfolio" data-title="Weddings">
+        <img src= "https://photos.smugmug.com/Galleries/WeddingsGallery/i-L2CgW6L/0/1d8c43de/X3/20-0007_-353-E-soft-X3.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Galleries/Senior-Portraits/i-hkpN86R/0/69b5950d/X2/21-0005-0580-E-X2.jpg" data-lightbox="Portfolio" data-title="Senior Portraits">
+        <img src= "https://photos.smugmug.com/Galleries/Senior-Portraits/i-hkpN86R/0/69b5950d/X2/21-0005-0580-E-X2.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Website/n-6x35Gw/Store/i-TPpswrz/0/98536294/X3/SanFran-232-Edit-X3.jpg" data-lightbox="Portfolio" data-title="San Franciso Beach">
+        <img src= "https://photos.smugmug.com/Website/n-6x35Gw/Store/i-TPpswrz/0/98536294/X3/SanFran-232-Edit-X3.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Galleries/Senior-Portraits/i-2cDXmNz/0/fb5a9a0b/X3/18-0107-255-Edit-X3.jpg" data-lightbox="Portfolio" data-title="Senior Portraits">
       <img src= "https://photos.smugmug.com/Galleries/Senior-Portraits/i-2cDXmNz/0/fb5a9a0b/X3/18-0107-255-Edit-X3.jpg" alt="Tom Stout Photography"></a>
-      <a href="https://photos.smugmug.com/Galleries/Senior-Portraits/i-2fV6D7q/0/62d2bd76/X2/20-0006-96-E2-X2.jpg" target="blank" alt="Tom Stout Photography">
-      <img src= "https://photos.smugmug.com/Galleries/Senior-Portraits/i-2fV6D7q/0/62d2bd76/X2/20-0006-96-E2-X2.jpg" alt="Tom Stout Photography"></a>
-      <a href="https://photos.smugmug.com/Galleries/Senior-Portraits/i-vfKZFmP/0/7b35ecab/X2/18-0107-91-Edit-X2.jpg" target="blank" alt="Tom Stout Photography">
-      <img src= "https://photos.smugmug.com/Galleries/Senior-Portraits/i-vfKZFmP/0/7b35ecab/X2/18-0107-91-Edit-X2.jpg" alt="Tom Stout Photography"></a>
-    </div>
-    <div class="column">
-      <a href="https://photos.smugmug.com/Galleries/Senior-Portraits/i-3gvwD9D/0/47ad62ac/X3/IMG_9391-Edit-2-X3.jpg" target="blank" alt="Tom Stout Photography">
+
+      <a href="https://photos.smugmug.com/Galleries/Senior-Portraits/i-2fV6D7q/0/62d2bd76/X2/20-0006-96-E2-X2.jpg" data-lightbox="Portfolio" data-title="Senior Portraits">
+        <img src= "https://photos.smugmug.com/Galleries/Senior-Portraits/i-2fV6D7q/0/62d2bd76/X2/20-0006-96-E2-X2.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Galleries/Senior-Portraits/i-vfKZFmP/0/7b35ecab/X2/18-0107-91-Edit-X2.jpg" data-lightbox="Portfolio" data-title="Senior Portraits">
+        <img src= "https://photos.smugmug.com/Galleries/Senior-Portraits/i-vfKZFmP/0/7b35ecab/X2/18-0107-91-Edit-X2.jpg" alt="Tom Stout Photography"></a>    
+      
+      <a href="https://photos.smugmug.com/Website/n-6x35Gw/Store/i-GBnsDvq/0/e54eaa2c/X2/DJI_20230720213946_0040_D-Pano-Edit-Edit-X2.jpg" data-lightbox="Portfolio" data-title="Mount Rainier Landscape">
+        <img src= "https://photos.smugmug.com/Website/n-6x35Gw/Store/i-GBnsDvq/0/e54eaa2c/X2/DJI_20230720213946_0040_D-Pano-Edit-Edit-X2.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Galleries/Senior-Portraits/i-3gvwD9D/0/47ad62ac/X3/IMG_9391-Edit-2-X3.jpg" data-lightbox="Portfolio" data-title="Senior Portraits">
       <img src= "https://photos.smugmug.com/Galleries/Senior-Portraits/i-3gvwD9D/0/47ad62ac/X3/IMG_9391-Edit-2-X3.jpg" alt="Tom Stout Photography"></a>
-      <a href="https://photos.smugmug.com/Galleries/Senior-Portraits/i-n54r2kg/0/6d1a3c53/X3/17-100_0404-Edit-X3.jpg" target="blank" alt="Tom Stout Photography">
-      <img src= "https://photos.smugmug.com/Galleries/Senior-Portraits/i-n54r2kg/0/6d1a3c53/X3/17-100_0404-Edit-X3.jpg" alt="Tom Stout Photography"></a>
-      <a href="https://photos.smugmug.com/Galleries/Senior-Portraits/i-BrSsv2G/0/8801259f/X3/21-0007_350-E-X3.jpg" target="blank" alt="Tom Stout Photography">
-      <img src= "https://photos.smugmug.com/Galleries/Senior-Portraits/i-BrSsv2G/0/8801259f/X3/21-0007_350-E-X3.jpg" alt="Tom Stout Photography"></a>
-      <a href="https://photos.smugmug.com/Galleries/Portraits/i-GMPqsPw/0/3ac36168/X2/18-0114-16-Edit-X2.jpg" target="blank" alt="Tom Stout Photography">
-      <img src= "https://photos.smugmug.com/Galleries/Portraits/i-GMPqsPw/0/3ac36168/X2/18-0114-16-Edit-X2.jpg" alt="Tom Stout Photography"></a>
-      <a href="https://photos.smugmug.com/Galleries/Portraits/i-DMVTxZj/0/a4149967/X2/21-0003-0192-Edit-Edit-X2.jpg" target="blank" alt="Tom Stout Photography">
-      <img src= "https://photos.smugmug.com/Galleries/Portraits/i-DMVTxZj/0/a4149967/X2/21-0003-0192-Edit-Edit-X2.jpg" alt="Tom Stout Photography"></a>
-      <a href="https://photos.smugmug.com/Galleries/Portraits/i-3LkphbP/0/2b8ebd96/X2/Reilly-X2.jpg" target="blank" alt="Tom Stout Photography">
-      <img src= "https://photos.smugmug.com/Galleries/Portraits/i-3LkphbP/0/2b8ebd96/X2/Reilly-X2.jpg" alt="Tom Stout Photography"></a>
-    </div>
-    <div class="column">
-      <a href="https://photos.smugmug.com/Galleries/Portraits/i-Z92Rb9g/0/8cfc82fc/X2/18-0102-9855-Edit-X2.jpg" target="blank" alt="Tom Stout Photography">
-      <img src= "https://photos.smugmug.com/Galleries/Portraits/i-Z92Rb9g/0/8cfc82fc/X2/18-0102-9855-Edit-X2.jpg" alt="Tom Stout Photography"></a>
-      <a href="https://photos.smugmug.com/Galleries/Portraits/i-ZzvsbVz/0/1b47b73f/X3/21-0009-396-140-141-143-149-X3.jpg" target="blank" alt="Tom Stout Photography">
-      <img src= "https://photos.smugmug.com/Galleries/Portraits/i-ZzvsbVz/0/1b47b73f/X3/21-0009-396-140-141-143-149-X3.jpg" alt="Tom Stout Photography"></a>
-      <a href="https://photos.smugmug.com/Galleries/Portraits/i-FWz2BWW/0/d9fc3657/X2/IMG_9588-Edit-X2.jpg" target="blank" alt="Tom Stout Photography">
-      <img src= "https://photos.smugmug.com/Galleries/Portraits/i-FWz2BWW/0/d9fc3657/X2/IMG_9588-Edit-X2.jpg" alt="Tom Stout Photography"></a>
-      <a href="https://photos.smugmug.com/Galleries/Portraits/i-kkGQjzs/0/4322121d/X3/20-0003-93-Edit-Edit-X3.jpg" target="blank" alt="Tom Stout Photography">
-      <img src= "https://photos.smugmug.com/Galleries/Portraits/i-kkGQjzs/0/4322121d/X3/20-0003-93-Edit-Edit-X3.jpg" alt="Tom Stout Photography"></a>
-      <a href="https://photos.smugmug.com/Galleries/Portraits/i-jf4S4J3/0/7c48db63/X3/18-0102-9876-Edit-X3.jpg" target="blank" alt="Tom Stout Photography">
-      <img src= "https://photos.smugmug.com/Galleries/Portraits/i-jf4S4J3/0/7c48db63/X3/18-0102-9876-Edit-X3.jpg" alt="Tom Stout Photography"></a>
-      <a href="https://photos.smugmug.com/Galleries/Portraits/i-sMhjBpX/0/e2278d29/X2/21-0009-345-169-Edit-X2.jpg" target="blank" alt="Tom Stout Photography">
-      <img src= "https://photos.smugmug.com/Galleries/Portraits/i-sMhjBpX/0/e2278d29/X2/21-0009-345-169-Edit-X2.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Galleries/Senior-Portraits/i-n54r2kg/0/6d1a3c53/X3/17-100_0404-Edit-X3.jpg" data-lightbox="Portfolio" data-title="Senior Portraits">
+        <img src= "https://photos.smugmug.com/Galleries/Senior-Portraits/i-n54r2kg/0/6d1a3c53/X3/17-100_0404-Edit-X3.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Galleries/Senior-Portraits/i-BrSsv2G/0/8801259f/X3/21-0007_350-E-X3.jpg" data-lightbox="Portfolio" data-title="Senior Portraits">
+        <img src= "https://photos.smugmug.com/Galleries/Senior-Portraits/i-BrSsv2G/0/8801259f/X3/21-0007_350-E-X3.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Galleries/Portraits/i-sMhjBpX/0/e2278d29/X2/21-0009-345-169-Edit-X2.jpg" data-lightbox="Portfolio" data-title="Kids Portraits">
+        <img src= "https://photos.smugmug.com/Galleries/Portraits/i-sMhjBpX/0/e2278d29/X2/21-0009-345-169-Edit-X2.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Galleries/Portraits/i-GMPqsPw/0/3ac36168/X2/18-0114-16-Edit-X2.jpg" data-lightbox="Portfolio" data-title="Maternity Portraits">
+        <img src= "https://photos.smugmug.com/Galleries/Portraits/i-GMPqsPw/0/3ac36168/X2/18-0114-16-Edit-X2.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Galleries/Portraits/i-DMVTxZj/0/a4149967/X2/21-0003-0192-Edit-Edit-X2.jpg" data-lightbox="Portfolio" data-title="Kids Portraits">
+        <img src= "https://photos.smugmug.com/Galleries/Portraits/i-DMVTxZj/0/a4149967/X2/21-0003-0192-Edit-Edit-X2.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Website/n-6x35Gw/Store/i-CpH6gpH/0/08042949/X3/SanFran-17-Edit-Edit-X3.jpg" data-lightbox="Portfolio" data-title="San Francisco, CA">
+        <img src= "https://photos.smugmug.com/Website/n-6x35Gw/Store/i-CpH6gpH/0/08042949/X3/SanFran-17-Edit-Edit-X3.jpg" alt="Tom Stout Photography"></a>
+          
+      <a href="https://photos.smugmug.com/Galleries/Portraits/i-3LkphbP/0/2b8ebd96/X2/Reilly-X2.jpg" data-lightbox="Portfolio" data-title="Kids Portraits">
+        <img src= "https://photos.smugmug.com/Galleries/Portraits/i-3LkphbP/0/2b8ebd96/X2/Reilly-X2.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Galleries/Portraits/i-Z92Rb9g/0/8cfc82fc/X2/18-0102-9855-Edit-X2.jpg" data-lightbox="Portfolio" data-title="Kids Portraits">
+        <img src= "https://photos.smugmug.com/Galleries/Portraits/i-Z92Rb9g/0/8cfc82fc/X2/18-0102-9855-Edit-X2.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Website/n-6x35Gw/Store/i-BRFw8RJ/0/fa3d108a/X3/SanFran-250-X3.jpg" data-lightbox="Portfolio" data-title="San Francisco, CA">
+        <img src="https://photos.smugmug.com/Website/n-6x35Gw/Store/i-BRFw8RJ/0/fa3d108a/X3/SanFran-250-X3.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Galleries/Portraits/i-ZzvsbVz/0/1b47b73f/X3/21-0009-396-140-141-143-149-X3.jpg" data-lightbox="Portfolio" data-title="Kids Portraits">
+        <img src= "https://photos.smugmug.com/Galleries/Portraits/i-ZzvsbVz/0/1b47b73f/X3/21-0009-396-140-141-143-149-X3.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Galleries/Portraits/i-FWz2BWW/0/d9fc3657/X2/IMG_9588-Edit-X2.jpg" data-lightbox="Portfolio" data-title="Kids Portraits">
+        <img src= "https://photos.smugmug.com/Galleries/Portraits/i-FWz2BWW/0/d9fc3657/X2/IMG_9588-Edit-X2.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Galleries/Portraits/i-kkGQjzs/0/4322121d/X3/20-0003-93-Edit-Edit-X3.jpg" data-lightbox="Portfolio" data-title="Kids Portraits">
+        <img src= "https://photos.smugmug.com/Galleries/Portraits/i-kkGQjzs/0/4322121d/X3/20-0003-93-Edit-Edit-X3.jpg" alt="Tom Stout Photography"></a>
+
+      <a href="https://photos.smugmug.com/Galleries/Portraits/i-jf4S4J3/0/7c48db63/X3/18-0102-9876-Edit-X3.jpg" data-lightbox="Portfolio" data-title="Kids Portraits">
+        <img src= "https://photos.smugmug.com/Galleries/Portraits/i-jf4S4J3/0/7c48db63/X3/18-0102-9876-Edit-X3.jpg" alt="Tom Stout Photography"></a>
+  
+      <a href="https://photos.smugmug.com/Website/n-6x35Gw/Store/i-MXGD7Z7/0/c2b9382a/X3/TOM_9025-Edit-Edit-X3.jpg" data-lightbox="Portfolio" data-title="Chicago Red Line">
+        <img src= "https://photos.smugmug.com/Website/n-6x35Gw/Store/i-MXGD7Z7/0/c2b9382a/X3/TOM_9025-Edit-Edit-X3.jpg" alt="Tom Stout Photography"></a>
+
     </div>
   </div>
-</div>
+  <script src="{% static 'js/lightbox-plus-jquery.js' %}"></script>
+</body>

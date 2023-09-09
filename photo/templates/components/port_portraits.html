@@ -8,6 +8,11 @@
 {% block content %}
 
 <head>
+  <link
+    href="{% static 'styles/lightbox.css' %}"
+    rel="stylesheet"
+    type="text/css"/>
+
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9XVX4349YF"></script>
 <script>
@@ -30,74 +35,115 @@
       <h1 class="text-white-50 fw-light fs-4">Creative Portrait Photography</h1>
       <p class="text-center">  </p>
   </section>
-  <div class="gallery-container">
-    <div class="row"> 
-      <div class="column">
-        <a href="https://photos.smugmug.com/My-Family/Jeremy/i-Xck4s2p/0/79b1365e/X3/Composit-X3.jpg" target="blank" alt="Tom Stout Portraits">
+  <body>
+    <div class="container">
+      <div class="gallery"> 
+        <a href="https://photos.smugmug.com/My-Family/Jeremy/i-Xck4s2p/0/79b1365e/X3/Composit-X3.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/My-Family/Jeremy/i-Xck4s2p/0/79b1365e/X3/Composit-X3.jpg" alt="Tom Stout Portraits"></a>
-        <a href="https://photos.smugmug.com/My-Family/Jeremy/i-JVgdBhD/0/c9c27e3d/X2/Lamilia-X2.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/My-Family/Jeremy/i-JVgdBhD/0/c9c27e3d/X2/Lamilia-X2.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/My-Family/Jeremy/i-JVgdBhD/0/c9c27e3d/X2/Lamilia-X2.jpg" alt="Tom Stout Portraits"></a>
-        <a href="https://photos.smugmug.com/My-Family/Jeremy/i-cKHhx6k/0/b64ab96f/X3/Jeremy%20Comp-X3.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/My-Family/Jeremy/i-cKHhx6k/0/b64ab96f/X3/Jeremy%20Comp-X3.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/My-Family/Jeremy/i-cKHhx6k/0/b64ab96f/X3/Jeremy%20Comp-X3.jpg" alt="Tom Stout Portraits"></a>
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-Lgpfhwt/0/072960a4/X2/21-0009-419-126-127-X2.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-Lgpfhwt/0/072960a4/X2/21-0009-419-126-127-X2.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-Lgpfhwt/0/072960a4/X2/21-0009-419-126-127-X2.jpg" alt="Tom Stout Portraits"></a>
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-ZMRZPTL/0/63270ac3/X3/IMG_9736SMOSNA-Edit-2-X3.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-ZMRZPTL/0/63270ac3/X3/IMG_9736SMOSNA-Edit-2-X3.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-ZMRZPTL/0/63270ac3/X3/IMG_9736SMOSNA-Edit-2-X3.jpg" alt="Tom Stout Portraits"></a>
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-24D2jwx/0/5f5552b6/X3/18-0102-9874-Edit-X3.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-24D2jwx/0/5f5552b6/X3/18-0102-9874-Edit-X3.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-24D2jwx/0/5f5552b6/X3/18-0102-9874-Edit-X3.jpg" alt="Tom Stout Portraits"></a>
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-GMPqsPw/0/3ac36168/X2/18-0114-16-Edit-X2.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-GMPqsPw/0/3ac36168/X2/18-0114-16-Edit-X2.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-GMPqsPw/0/3ac36168/X2/18-0114-16-Edit-X2.jpg" alt="Tom Stout Portraits"></a>
-      </div>  
-      <div class="column">
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-3qpqTRF/0/2b6c216f/X2/20-0003-55-E-X2.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-c4KkDLw/0/4c9904df/X3/20-0002-153-Edit-Edit-X3.jpg" data-lightbox="Portfolio" data-title="Portraits">
+          <img src= "https://photos.smugmug.com/Galleries/Portraits/i-c4KkDLw/0/4c9904df/X3/20-0002-153-Edit-Edit-X3.jpg" alt="Tom Stout Portraits"></a>
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-7CBxHct/0/1540e808/X4/21-0009-369-121-122-124-155-X4.jpg" data-lightbox="Portfolio" data-title="Portraits">
+          <img src= "https://photos.smugmug.com/Galleries/Portraits/i-7CBxHct/0/1540e808/X4/21-0009-369-121-122-124-155-X4.jpg" alt="Tom Stout Portraits"></a>        
+    
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-SCFQ28X/0/ea13b631/X4/Ollie%20painting-2-X4.jpg" data-lightbox="Portfolio" data-title="Portraits">
+          <img src= "https://photos.smugmug.com/Galleries/Portraits/i-SCFQ28X/0/ea13b631/X4/Ollie%20painting-2-X4.jpg" alt="Tom Stout Portraits"></a>
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-X82DqPn/0/c881b47c/X4/18-0105-16-TS-131-X4.jpg" data-lightbox="Portfolio" data-title="Portraits">
+          <img src= "https://photos.smugmug.com/Galleries/Portraits/i-X82DqPn/0/c881b47c/X4/18-0105-16-TS-131-X4.jpg" alt="Tom Stout Portraits"></a>
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-3qpqTRF/0/2b6c216f/X2/20-0003-55-E-X2.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-3qpqTRF/0/2b6c216f/X2/20-0003-55-E-X2.jpg" alt="Tom Stout Portraits"></a>
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-7vfqs3J/0/c7c554ef/X3/IMG_9765-FA%20Warm-Edit-X3.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-7vfqs3J/0/c7c554ef/X3/IMG_9765-FA%20Warm-Edit-X3.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-7vfqs3J/0/c7c554ef/X3/IMG_9765-FA%20Warm-Edit-X3.jpg" alt="Tom Stout Portraits"></a>
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-kkGQjzs/0/4322121d/X3/20-0003-93-Edit-Edit-X3.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-kkGQjzs/0/4322121d/X3/20-0003-93-Edit-Edit-X3.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-kkGQjzs/0/4322121d/X3/20-0003-93-Edit-Edit-X3.jpg" alt="Tom Stout Portraits"></a>
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-PdpPqsq/0/58b76733/X3/18-0114-107-bw-X3.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-PdpPqsq/0/58b76733/X3/18-0114-107-bw-X3.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-PdpPqsq/0/58b76733/X3/18-0114-107-bw-X3.jpg" alt="Tom Stout Portraits"></a>
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-sMhjBpX/0/e2278d29/X2/21-0009-345-169-Edit-X2.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-sMhjBpX/0/e2278d29/X2/21-0009-345-169-Edit-X2.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-sMhjBpX/0/e2278d29/X2/21-0009-345-169-Edit-X2.jpg" alt="Tom Stout Portraits"></a>     
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-xS74gVV/0/4d55a2c6/X3/21-0001_0552-BW-2-X3.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-xS74gVV/0/4d55a2c6/X3/21-0001_0552-BW-2-X3.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-xS74gVV/0/4d55a2c6/X3/21-0001_0552-BW-2-X3.jpg" alt="Tom Stout Portraits"></a>
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-s4h4Lww/0/81e76902/X2/20-0002-31-X2.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-s4h4Lww/0/81e76902/X2/20-0002-31-X2.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-s4h4Lww/0/81e76902/X2/20-0002-31-X2.jpg" alt="Tom Stout Portraits"></a>
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-d8s24f9/0/fd66d5d5/X2/18-0114-50-Edit-Edit-Edit-Edit-Edit-X2.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-d8s24f9/0/fd66d5d5/X2/18-0114-50-Edit-Edit-Edit-Edit-Edit-X2.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-d8s24f9/0/fd66d5d5/X2/18-0114-50-Edit-Edit-Edit-Edit-Edit-X2.jpg" alt="Tom Stout Portraits"></a>
-      </div>       
-      <div class="column">
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-hSt9kr6/0/f3c320a7/X3/20-0003-101-Edit-X3.jpg" target="blank" alt="Tom Stout Portraits">
+     
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-hSt9kr6/0/f3c320a7/X3/20-0003-101-Edit-X3.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-hSt9kr6/0/f3c320a7/X3/20-0003-101-Edit-X3.jpg" alt="Tom Stout Portraits"></a>
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-5Xf3pHH/0/d1dfca8b/X3/20-0003-114-Edit-X3.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-5Xf3pHH/0/d1dfca8b/X3/20-0003-114-Edit-X3.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-5Xf3pHH/0/d1dfca8b/X3/20-0003-114-Edit-X3.jpg" alt="Tom Stout Portraits"></a>
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-wLNj8Jn/0/0f38531d/X3/21-0009-311-142-151-153-X3.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-kSH7ddr/0/3f7e8a15/X4/21-0003-0273-Edit-X4.jpg" data-lightbox="Portfolio" data-title="Portraits">
+          <img src= "https://photos.smugmug.com/Galleries/Portraits/i-kSH7ddr/0/3f7e8a15/X4/21-0003-0273-Edit-X4.jpg" alt="Tom Stout Portraits"></a>
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-wLNj8Jn/0/0f38531d/X3/21-0009-311-142-151-153-X3.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-wLNj8Jn/0/0f38531d/X3/21-0009-311-142-151-153-X3.jpg" alt="Tom Stout Portraits"></a>
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-DMVTxZj/0/a4149967/X2/21-0003-0192-Edit-Edit-X2.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-DMVTxZj/0/a4149967/X2/21-0003-0192-Edit-Edit-X2.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-DMVTxZj/0/a4149967/X2/21-0003-0192-Edit-Edit-X2.jpg" alt="Tom Stout Portraits"></a>
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-JsmfVvS/0/26bc3263/X3/21-0009-420-156-158-159-160-161-164-X3.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-wppVBnm/0/6cfa6ec2/X4/IMG_9685-X4.jpg" data-lightbox="Portfolio" data-title="Portraits">
+          <img src= "https://photos.smugmug.com/Galleries/Portraits/i-wppVBnm/0/6cfa6ec2/X4/IMG_9685-X4.jpg" alt="Tom Stout Portraits"></a>
+  
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-JsmfVvS/0/26bc3263/X3/21-0009-420-156-158-159-160-161-164-X3.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-JsmfVvS/0/26bc3263/X3/21-0009-420-156-158-159-160-161-164-X3.jpg" alt="Tom Stout Portraits"></a>
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-wstzCTX/0/2e6130dd/X2/20-0003-171-Edit-X2.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-wstzCTX/0/2e6130dd/X2/20-0003-171-Edit-X2.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-wstzCTX/0/2e6130dd/X2/20-0003-171-Edit-X2.jpg" alt="Tom Stout Portraits"></a>
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-VPSDSjZ/0/667a81f5/X2/21-0009-338-134-135-136-X2.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-VPSDSjZ/0/667a81f5/X2/21-0009-338-134-135-136-X2.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-VPSDSjZ/0/667a81f5/X2/21-0009-338-134-135-136-X2.jpg" alt="Tom Stout Portraits"></a>
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-LfQdJrH/0/bf0cd621/X2/Video%20image-X2.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-LfQdJrH/0/bf0cd621/X2/Video%20image-X2.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-LfQdJrH/0/bf0cd621/X2/Video%20image-X2.jpg" alt="Tom Stout Portraits"></a>
-      </div>   
-      <div class="column">
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-3sCXjQ2/0/30b10d06/X2/18-0114-119-Edit-X2.jpg" target="blank" alt="Tom Stout Portraits">
+      
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-3sCXjQ2/0/30b10d06/X2/18-0114-119-Edit-X2.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-3sCXjQ2/0/30b10d06/X2/18-0114-119-Edit-X2.jpg" alt="Tom Stout Portraits"></a>
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-wppVBnm/0/6cfa6ec2/X3/IMG_9685-X3.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-wppVBnm/0/6cfa6ec2/X3/IMG_9685-X3.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-wppVBnm/0/6cfa6ec2/X3/IMG_9685-X3.jpg" alt="Tom Stout Portraits"></a>
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-ZzvsbVz/0/1b47b73f/X3/21-0009-396-140-141-143-149-X3.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-ZzvsbVz/0/1b47b73f/X3/21-0009-396-140-141-143-149-X3.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-ZzvsbVz/0/1b47b73f/X3/21-0009-396-140-141-143-149-X3.jpg" alt="Tom Stout Portraits"></a>
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-cdBs3qr/0/719a4445/X3/2U5A0347-No%20Border-X3.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-cdBs3qr/0/719a4445/X3/2U5A0347-No%20Border-X3.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-cdBs3qr/0/719a4445/X3/2U5A0347-No%20Border-X3.jpg" alt="Tom Stout Portraits"></a>
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-7vfqs3J/0/c7c554ef/X3/IMG_9765-FA%20Warm-Edit-X3.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-7vfqs3J/0/c7c554ef/X3/IMG_9765-FA%20Warm-Edit-X3.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-7vfqs3J/0/c7c554ef/X3/IMG_9765-FA%20Warm-Edit-X3.jpg" alt="Tom Stout Portraits"></a>
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-hLrBsx3/0/28ceb7e0/X2/18-0114-113-Edit-Edit-X2.jpg" target="blank" alt="Tom Stout Portraits">
+
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-hLrBsx3/0/28ceb7e0/X2/18-0114-113-Edit-Edit-X2.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-hLrBsx3/0/28ceb7e0/X2/18-0114-113-Edit-Edit-X2.jpg" alt="Tom Stout Portraits"></a>
-        <a href="https://photos.smugmug.com/Galleries/Portraits/i-FWz2BWW/0/d9fc3657/X2/IMG_9588-Edit-X2.jpg" target="blank" alt="Tom Stout Portraits">
+          
+        <a href="https://photos.smugmug.com/Galleries/Portraits/i-FWz2BWW/0/d9fc3657/X2/IMG_9588-Edit-X2.jpg" data-lightbox="Portfolio" data-title="Portraits">
           <img src= "https://photos.smugmug.com/Galleries/Portraits/i-FWz2BWW/0/d9fc3657/X2/IMG_9588-Edit-X2.jpg" alt="Tom Stout Portraits"></a>
       </div>
     </div>
@@ -105,7 +151,7 @@
     <br>
   <hr class="style14 mb-5" />
     <br>
-  
+    <script src="{% static 'js/lightbox-plus-jquery.js' %}"></script>
 </body>
 
 {% endblock%}
