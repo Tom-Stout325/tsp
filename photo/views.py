@@ -13,8 +13,7 @@ from django.contrib.auth.forms import AuthenticationForm
 
 
 def resume(request):
-    context = {}
-    return render(request, 'photo/resume.html', context)
+    return render(request, 'photo/resume.html', {})
 
 
 def AboutPage(request):
