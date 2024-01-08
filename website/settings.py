@@ -20,7 +20,7 @@ SECRET_KEY = os.environ.get(
 
 ALLOWED_HOSTS = ['tsp-website-e440e7e574bc.herokuapp.com', '127.0.0.1', 'www.tom-stout.com', 'tom-stout.com']
           
-DEBUG = False
+DEBUG = True
 
 INSTALLED_APPS = [
     'django.contrib.admin',
