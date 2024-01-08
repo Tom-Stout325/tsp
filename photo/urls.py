@@ -12,5 +12,6 @@ urlpatterns = [
     path('portraits/', PortraitsPage, name='portraits'),
     path('weddings/', WeddingsPage, name='weddings'),
     path('drone/', DronePage, name='drones'),
+    path('resume/', resume, name='resume'),
     #path('clients/', ClientPage, name='clients'),
 ]

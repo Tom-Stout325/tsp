@@ -12,6 +12,9 @@ from django.template.loader import render_to_string
 from django.contrib.auth.forms import AuthenticationForm
 
 
+def resume(request):
+    return render(request, 'photo/resume.html')
+
 
 def AboutPage(request):
     if request.method == "POST":
