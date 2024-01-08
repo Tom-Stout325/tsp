@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'photo.apps.PhotoConfig',
     'fontawesomefree',
     'bootstrap5',
+    'gunicorn',
 ]
 
 MIDDLEWARE = [
