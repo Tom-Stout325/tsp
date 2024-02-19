@@ -12,5 +12,5 @@ urlpatterns = [
     path('seniors/', SeniorsPage, name='seniors'),
     path('portraits/', PortraitsPage, name='portraits'),
     path('weddings/', WeddingsPage, name='weddings'),
-    path('drone/', DronePage, name='drones'),
+    path('airborne-images/', DronePage, name='drones'),
 ]
