@@ -112,7 +112,8 @@ BOOTSTRAP5 = {
     "required_css_class": "bootstrap5-required",
     "javascript_in_head": True,
 }
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 CSRF_COOKIE_SECURE = True
 
